@@ -24,24 +24,6 @@ void UOpenDoor::BeginPlay()
 
 	if(!PressurePlate)
 		UE_LOG(LogTemp, Error, TEXT("Pressure plate missing on %s"), *GetOwner()->GetName())
-
-	CloseDoor();
-}
-
-void UOpenDoor::OpenDoor()
-{
-	float OpenAngle = 200.0f;
-	AActor* DoorOwner = GetOwner(); //To  get actor
-	DoorOwner -> SetActorRotation(FRotator(0.f, OpenAngle, 0.f));
-
-	FString NewDoorRotation = GetOwner()->GetActorRotation().ToString();
-	///UE_LOG(LogTemp, Warning, TEXT("Rotator Hinge: %s"), *NewDoorRotation); //to log the changes
-}
-
-void UOpenDoor::CloseDoor()
-{
-	AActor* DoorOwner = GetOwner(); //To  get actor
-	DoorOwner -> SetActorRotation(FRotator(0.f, 90.f, 0.f));
 }
 
 
@@ -51,16 +33,13 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// Poll the trigger volume
-	if (GetTotMassOfActorsOnPlate() > 20.f)		//TODO change it into a parameter later
+	if (GetTotMassOfActorsOnPlate() > TriggerMass)		//TODO change it into a parameter later
 	{
-		OpenDoor(); //If ActorThatOpens is in the volume, then open the door
-		LastDoorOpenTime = GetWorld()->GetTimeSeconds();
+		OnOpen.Broadcast(); //If ActorThatOpens is in the volume, then open the door
 	}
-
-	//Check if its time to close the door
-	if (GetWorld()->GetTimeSeconds() - LastDoorOpenTime > DoorCloseDelay)
+	else
 	{
-		CloseDoor();
+		OnClose.Broadcast();
 	}
 }
 
