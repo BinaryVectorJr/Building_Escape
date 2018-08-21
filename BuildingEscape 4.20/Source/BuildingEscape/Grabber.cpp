@@ -32,8 +32,13 @@ void UGrabber::BeginPlay()
 ///Look for attatched physics handle
 void UGrabber::FindPhysicsHandleComponent()
 {
+	PhysicsHandle = nullptr;
 	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
-	if (PhysicsHandle == nullptr)
+	if (PhysicsHandle)
+	{
+		UE_LOG(LogTemp, Error, TEXT("%s has physics handle component"), *GetOwner()->GetName())
+	}
+	else
 	{
 		UE_LOG(LogTemp, Error, TEXT("%s missing physics handle component"), *GetOwner()->GetName())
 	}
@@ -67,15 +72,15 @@ void UGrabber::Grab()
 	auto HitResult = GetFirstPhysicsBodyInReach();
 	auto ComponentToGrab = HitResult.GetComponent(); //gets mesh in our case
 	auto ActorHit = HitResult.GetActor();
-	auto ActorRotation = ActorHit->GetActorRotation();
+	//auto ActorRotation = ActorHit->GetActorRotation();
 
-		if (ActorHit && PhysicsHandle)
+		if ((ActorHit != nullptr) && (PhysicsHandle != nullptr))
 		{	///Later when we right click on an object, then intro a temp physics handle on it
 			PhysicsHandle->GrabComponentAtLocationWithRotation(
 				ComponentToGrab,
 				NAME_None, //No bones needed
-				ComponentToGrab->GetOwner()->GetActorLocation(),
-				ActorRotation
+				ActorHit->GetActorLocation(),
+				ActorHit->GetActorRotation()
 			);
 		}
 }

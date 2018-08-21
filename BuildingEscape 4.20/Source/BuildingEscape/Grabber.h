@@ -31,7 +31,7 @@ public:
 private:
 	float Reach = 100.f; //its in cm
 
-	UPhysicsHandleComponent* PhysicsHandle = nullptr;
+	UPhysicsHandleComponent* PhysicsHandle;
 	UInputComponent* InputComponent = nullptr;
 	
 	///Raycast and grab whats in reach

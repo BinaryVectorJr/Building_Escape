@@ -1,0 +1,1628 @@
+﻿Log file open, 08/21/18 10:59:08
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BuildingEscape
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.310881
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.114s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4710HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 4600
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Unreal Engine/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.21-05.29.08:577][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.21-05.29.08:577][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.21-05.29.08:591][  0]LogHAL: Display: Platform has ~ 16 GB [17087881216 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.21-05.29.08:591][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.08.21-05.29.08:591][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.21-05.29.08:593][  0]LogInit: Computer: BEAST-23
+[2018.08.21-05.29.08:593][  0]LogInit: User: angsh
+[2018.08.21-05.29.08:593][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.21-05.29.08:593][  0]LogInit: High frequency timer resolution =2.435778 MHz
+[2018.08.21-05.29.08:593][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.08.21-05.29.08:593][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.21-05.29.08:593][  0]LogMemory: Process Physical Memory: 99.37 MB used, 99.37 MB peak
+[2018.08.21-05.29.08:593][  0]LogMemory: Process Virtual Memory: 91.18 MB used, 91.18 MB peak
+[2018.08.21-05.29.08:593][  0]LogMemory: Physical Memory: 7149.49 MB used,  9146.79 MB free, 16296.27 MB total
+[2018.08.21-05.29.08:593][  0]LogMemory: Virtual Memory: 4644.96 MB used,  9146.79 MB free, 134217728.00 MB total
+[2018.08.21-05.29.08:627][  0]LogInit: Using OS detected language (en-US).
+[2018.08.21-05.29.08:627][  0]LogInit: Using OS detected locale (en-US).
+[2018.08.21-05.29.08:628][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.08.21-05.29.09:121][  0]LogStreaming: Display: Took  0.495s to InitEngineTextLocalization.
+[2018.08.21-05.29.09:121][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.21-05.29.09:162][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.21-05.29.09:162][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.21-05.29.09:741][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.21-05.29.09:741][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.21-05.29.09:785][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2018.08.21-05.29.09:785][  0]LogD3D11RHI:       4065/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.08.21-05.29.09:793][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.08.21-05.29.09:793][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.08.21-05.29.09:796][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.21-05.29.09:796][  0]LogD3D11RHI:       0/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.21-05.29.09:796][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.21-05.29.09:818][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.21-05.29.09:818][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.21-05.29.09:818][  0]LogWindows: EnumDisplayDevices:
+[2018.08.21-05.29.09:818][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.08.21-05.29.09:819][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.08.21-05.29.09:819][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.08.21-05.29.09:819][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.21-05.29.09:819][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2018.08.21-05.29.09:819][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.21-05.29.09:819][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.21-05.29.09:819][  0]LogRHI: Texture pool is 2846 MB (70% of 4065 MB)
+[2018.08.21-05.29.09:848][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.21-05.29.09:866][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.08.21-05.29.09:867][  0]LogShaderCompilers: Guid format shader working directory is -56 characters bigger than the processId version (E:/Media/UE4 Projects and Tutorials/_User Projects/Section_03-4_19/Building_Escape/BuildingEscape 4.20/Intermediate/Shaders/WorkingDirectory/9528/).
+[2018.08.21-05.29.09:867][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/angsh/AppData/Local/Temp/UnrealShaderWorkingDir/CB9CC7A343479E51287C74A14F74ACDB/'.
+[2018.08.21-05.29.10:197][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.21-05.29.10:222][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.21-05.29.10:242][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.21-05.29.10:266][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.21-05.29.10:285][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.21-05.29.10:304][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.21-05.29.10:328][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.21-05.29.10:346][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.21-05.29.10:354][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-05.29.10:464][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.21-05.29.10:536][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.21-05.29.10:536][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.21-05.29.10:569][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.21-05.29.10:569][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.21-05.29.10:586][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.21-05.29.10:604][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.21-05.29.10:621][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.21-05.29.10:640][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.21-05.29.10:653][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.08.21-05.29.10:653][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.21-05.29.10:723][  0]LogXGEController: Cleaning working directory: C:/Users/angsh/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.08.21-05.29.10:723][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.21-05.29.10:723][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.21-05.29.10:723][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.21-05.29.11:902][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.21-05.29.11:967][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/angsh/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.21-05.29.11:968][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/angsh/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.08.21-05.29.11:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Media/UE4 Projects and Tutorials/_User Projects/Section_03-4_19/Building_Escape/BuildingEscape 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.21-05.29.11:968][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.21-05.29.11:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Media/UE4 Projects and Tutorials/_User Projects/Section_03-4_19/Building_Escape/BuildingEscape 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.21-05.29.11:968][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.21-05.29.11:986][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.21-05.29.11:999][  0]LogDerivedDataCache: Using Local data cache path C:/Users/angsh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.21-05.29.11:999][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.21-05.29.11:999][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.21-05.29.12:023][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.21-05.29.12:025][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.21-05.29.12:027][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.21-05.29.12:205][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2018.08.21-05.29.12:622][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.21-05.29.12:801][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.21-05.29.12:806][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.21-05.29.12:806][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.08.21-05.29.12:806][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.21-05.29.12:806][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.21-05.29.12:824][  0]LogNetVersion: BuildingEscape 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3323102585)
+[2018.08.21-05.29.13:488][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.112968 seconds
+[2018.08.21-05.29.13:496][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.08.21-05.29.13:496][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.08.21-05.29.13:496][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.21-05.29.15:780][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.08.21-05.29.15:790][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.21-05.29.15:805][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.21-05.29.16:032][  0]SourceControl: Source control is disabled
+[2018.08.21-05.29.16:032][  0]SourceControl: Source control is disabled
+[2018.08.21-05.29.16:035][  0]SourceControl: Source control is disabled
+[2018.08.21-05.29.16:037][  0]SourceControl: Source control is disabled
+[2018.08.21-05.29.16:255][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.21-05.29.16:327][  0]LogOcInput: OculusInput pre-init called
+[2018.08.21-05.29.16:531][  0]LogEngine: Initializing Engine...
+[2018.08.21-05.29.16:532][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.21-05.29.16:534][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.21-05.29.16:534][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.21-05.29.16:534][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.21-05.29.16:534][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.21-05.29.16:818][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.21-05.29.16:832][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.21-05.29.16:843][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.21-05.29.16:864][  0]LogInit: FAudioDevice initialized.
+[2018.08.21-05.29.16:865][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.21-05.29.16:951][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/angsh/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.21-05.29.16:961][  0]LogInit: Texture streaming: Enabled
+[2018.08.21-05.29.16:982][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.21-05.29.16:982][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={FC4B86CB-4333-DA8B-032D-D7AD664F8393}
+[2018.08.21-05.29.16:996][  0]LogInit: Transaction tracking system initialized
+[2018.08.21-05.29.17:023][  0]BlueprintLog: New page: Editor Load
+[2018.08.21-05.29.17:109][  0]LocalizationService: Localization service is disabled
+[2018.08.21-05.29.17:459][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.21-05.29.17:459][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.21-05.29.17:459][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.21-05.29.17:459][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.21-05.29.17:459][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.21-05.29.17:459][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.21-05.29.17:459][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.21-05.29.17:622][  0]LogFileCache: Scanning file cache for directory 'E:/Media/UE4 Projects and Tutorials/_User Projects/Section_03-4_19/Building_Escape/BuildingEscape 4.20/Content/' took 0.01s
+[2018.08.21-05.29.17:632][  0]SourceControl: Source control is disabled
+[2018.08.21-05.29.17:632][  0]Cmd: MAP LOAD FILE="E:/Media/UE4 Projects and Tutorials/_User Projects/Section_03-4_19/Building_Escape/BuildingEscape 4.20/Content/NewMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.21-05.29.17:633][  0]LightingResults: New page: Lighting Build
+[2018.08.21-05.29.17:636][  0]MapCheck: New page: Map Check
+[2018.08.21-05.29.17:636][  0]LightingResults: New page: Lighting Build
+[2018.08.21-05.29.18:062][  0]LogAIModule: Creating AISystem for world NewMap1
+[2018.08.21-05.29.18:071][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.21-05.29.18:102][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.21-05.29.18:259][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 156.867ms to complete.
+[2018.08.21-05.29.18:259][  0]LogFileHelpers: Loading map 'NewMap1' took 0.626
+[2018.08.21-05.29.18:370][  0]LogCollectionManager: Loaded 0 collections in 0.001117 seconds
+[2018.08.21-05.29.18:414][  0]LogFileCache: Scanning file cache for directory 'E:/Media/UE4 Projects and Tutorials/_User Projects/Section_03-4_19/Building_Escape/BuildingEscape 4.20/Saved/Collections/' took 0.01s
+[2018.08.21-05.29.18:415][  0]LogFileCache: Scanning file cache for directory 'E:/Media/UE4 Projects and Tutorials/_User Projects/Section_03-4_19/Building_Escape/BuildingEscape 4.20/Content/Developers/angsh/Collections/' took 0.01s
+[2018.08.21-05.29.18:415][  0]LogFileCache: Scanning file cache for directory 'E:/Media/UE4 Projects and Tutorials/_User Projects/Section_03-4_19/Building_Escape/BuildingEscape 4.20/Content/Collections/' took 0.01s
+[2018.08.21-05.29.18:415][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.08.21-05.29.18:428][  0]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 2591 classes and 613 folders.
+[2018.08.21-05.29.18:436][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.08.21-05.29.18:541][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.08.21-05.29.18:564][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.21-05.29.18:573][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.21-05.29.18:582][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.21-05.29.18:591][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.21-05.29.18:670][  0]LogSlate: Took 0.001273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.21-05.29.18:673][  0]LogSlate: Took 0.000827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.21-05.29.18:674][  0]LogSlate: Took 0.000770 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.21-05.29.18:684][  0]LogSlate: Took 0.001856 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.08.21-05.29.18:816][  0]LogRenderer: Reallocating scene render targets to support 1080x584 Format 10 NumSamples 1 (Frame:1).
+[2018.08.21-05.29.18:954][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.08.21-05.29.18:954][  0]LogLoad: (Engine Initialization) Total time: 12.01 seconds
+[2018.08.21-05.29.18:954][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.21-05.29.18:974][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.21-05.29.18:999][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.08.21-05.29.19:016][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.08.21-05.29.19:032][  1]LogAssetRegistry: Asset discovery search completed in 6.8495 seconds
+[2018.08.21-05.29.19:035][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.21-05.29.19:035][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000281 seconds (updated 0 objects)
+[2018.08.21-05.29.19:986][ 56]LogSlate: Took 0.000867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.21-05.29.21:923][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.21-05.29.23:312][254]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/DefaultPawn_BP.DefaultPawn_BP
+[2018.08.21-05.29.23:919][254]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.08.21-05.29.24:939][254]LogSlate: Took 0.000973 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.21-05.29.27:780][419]LogSlate: Window 'DefaultPawn_BP' being destroyed
+[2018.08.21-05.29.39:710][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.21-05.29.43:671][838]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.21-05.29.43:683][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.21-05.29.43:695][838]PIE: New page: PIE session: NewMap1 (Aug 21, 2018, 4:29:43 PM)
+[2018.08.21-05.29.43:695][838]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap1
+[2018.08.21-05.29.43:702][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006198s)
+[2018.08.21-05.29.43:703][838]LogAIModule: Creating AISystem for world NewMap1
+[2018.08.21-05.29.43:703][838]LogPlayLevel: PIE: World Init took: (0.001189s)
+[2018.08.21-05.29.43:703][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap1.NewMap1 to /Game/UEDPIE_0_NewMap1.NewMap1 (0.008053s)
+[2018.08.21-05.29.43:749][838]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.21-05.29.43:766][838]LogInit: FAudioDevice initialized.
+[2018.08.21-05.29.43:815][838]LogLoad: Game class is 'BuildingEscape_BP_C'
+[2018.08.21-05.29.43:818][838]LogWorld: Bringing World /Game/UEDPIE_0_NewMap1.NewMap1 up for play (max tick rate 60) at 2018.08.21-10.59.43
+[2018.08.21-05.29.43:819][838]LogWorld: Bringing up level for play took: 0.002035
+[2018.08.21-05.29.43:836][838]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.08.21-05.29.43:837][838]LogTemp: Warning: SM_Chair_2 found on X=383.387 Y=-413.742 Z=19.821
+[2018.08.21-05.29.43:838][838]LogTemp: Warning: SM_Chair2 found on X=223.387 Y=-413.742 Z=19.821
+[2018.08.21-05.29.43:838][838]LogTemp: Warning: DefaultPawn_BP_C_0 input component found
+[2018.08.21-05.29.43:838][838]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap1 -0.183
+[2018.08.21-05.29.47:163][ 37]LogTemp: Warning: Grab pressed!
+[2018.08.21-05.29.47:163][ 37]LogTemp: Warning: Line Trace Hit: SM_Chair2
+[2018.08.21-05.29.48:362][109]LogTemp: Error:  22160115500n pressure plate!
+[2018.08.21-05.29.48:379][110]LogTemp: Error:  22160114620n pressure plate!
+[2018.08.21-05.29.48:396][111]LogTemp: Error:  22160114460n pressure plate!
+[2018.08.21-05.29.48:412][112]LogTemp: Error:  22160114320n pressure plate!
+[2018.08.21-05.29.48:428][113]LogTemp: Error:  22160114160n pressure plate!
+[2018.08.21-05.29.48:446][114]LogTemp: Error:  22160114020n pressure plate!
+[2018.08.21-05.29.48:462][115]LogTemp: Error:  22160113660n pressure plate!
+[2018.08.21-05.29.48:479][116]LogTemp: Error:  22160113520n pressure plate!
+[2018.08.21-05.29.48:496][117]LogTemp: Error:  22160113360n pressure plate!
+[2018.08.21-05.29.48:513][118]LogTemp: Error:  22160113220n pressure plate!
+[2018.08.21-05.29.48:529][119]LogTemp: Error:  22160113060n pressure plate!
+[2018.08.21-05.29.48:545][120]LogTemp: Error:  22160112720n pressure plate!
+[2018.08.21-05.29.48:562][121]LogTemp: Error:  22160112560n pressure plate!
+[2018.08.21-05.29.48:579][122]LogTemp: Error:  22160112420n pressure plate!
+[2018.08.21-05.29.48:595][123]LogTemp: Error:  22160112260n pressure plate!
+[2018.08.21-05.29.48:612][124]LogTemp: Error:  22160112120n pressure plate!
+[2018.08.21-05.29.48:629][125]LogTemp: Error:  22160111760n pressure plate!
+[2018.08.21-05.29.48:645][126]LogTemp: Error:  22160111620n pressure plate!
+[2018.08.21-05.29.48:662][127]LogTemp: Error:  22160111460n pressure plate!
+[2018.08.21-05.29.48:678][128]LogTemp: Error:  22160111320n pressure plate!
+[2018.08.21-05.29.48:695][129]LogTemp: Error:  22160111100n pressure plate!
+[2018.08.21-05.29.48:712][130]LogTemp: Error:  22160110740n pressure plate!
+[2018.08.21-05.29.48:728][131]LogTemp: Error:  22160110600n pressure plate!
+[2018.08.21-05.29.48:745][132]LogTemp: Error:  22160110440n pressure plate!
+[2018.08.21-05.29.48:762][133]LogTemp: Error:  22160110300n pressure plate!
+[2018.08.21-05.29.48:778][134]LogTemp: Error:  22160110140n pressure plate!
+[2018.08.21-05.29.48:796][135]LogTemp: Error:  22160110000n pressure plate!
+[2018.08.21-05.29.48:812][136]LogTemp: Error:  22160107640n pressure plate!
+[2018.08.21-05.29.48:829][137]LogTemp: Error:  22160107500n pressure plate!
+[2018.08.21-05.29.48:846][138]LogTemp: Error:  22160107340n pressure plate!
+[2018.08.21-05.29.48:862][139]LogTemp: Error:  22160107200n pressure plate!
+[2018.08.21-05.29.48:879][140]LogTemp: Error:  22160107040n pressure plate!
+[2018.08.21-05.29.48:896][141]LogTemp: Error:  22160106700n pressure plate!
+[2018.08.21-05.29.48:912][142]LogTemp: Error:  22160106540n pressure plate!
+[2018.08.21-05.29.48:929][143]LogTemp: Error:  22160106400n pressure plate!
+[2018.08.21-05.29.48:945][144]LogTemp: Error:  22160106240n pressure plate!
+[2018.08.21-05.29.48:963][145]LogTemp: Error:  22160106100n pressure plate!
+[2018.08.21-05.29.48:979][146]LogTemp: Error:  22160105740n pressure plate!
+[2018.08.21-05.29.48:995][147]LogTemp: Error:  22160105600n pressure plate!
+[2018.08.21-05.29.49:012][148]LogTemp: Error:  22160105440n pressure plate!
+[2018.08.21-05.29.49:029][149]LogTemp: Error:  22160105300n pressure plate!
+[2018.08.21-05.29.49:045][150]LogTemp: Error:  22160105140n pressure plate!
+[2018.08.21-05.29.49:062][151]LogTemp: Error:  22160105000n pressure plate!
+[2018.08.21-05.29.49:079][152]LogTemp: Error:  22160104640n pressure plate!
+[2018.08.21-05.29.49:095][153]LogTemp: Error:  22160104500n pressure plate!
+[2018.08.21-05.29.49:112][154]LogTemp: Error:  22160104340n pressure plate!
+[2018.08.21-05.29.49:128][155]LogTemp: Error:  22160104200n pressure plate!
+[2018.08.21-05.29.49:145][156]LogTemp: Error:  22160104040n pressure plate!
+[2018.08.21-05.29.49:162][157]LogTemp: Error:  22160103700n pressure plate!
+[2018.08.21-05.29.49:179][158]LogTemp: Error:  22160103540n pressure plate!
+[2018.08.21-05.29.49:196][159]LogTemp: Error:  22160103400n pressure plate!
+[2018.08.21-05.29.49:212][160]LogTemp: Error:  22160103240n pressure plate!
+[2018.08.21-05.29.49:229][161]LogTemp: Error:  22160103100n pressure plate!
+[2018.08.21-05.29.49:245][162]LogTemp: Error:  22160102740n pressure plate!
+[2018.08.21-05.29.49:262][163]LogTemp: Error:  22160102600n pressure plate!
+[2018.08.21-05.29.49:278][164]LogTemp: Error:  22160102440n pressure plate!
+[2018.08.21-05.29.49:296][165]LogTemp: Error:  22160102300n pressure plate!
+[2018.08.21-05.29.49:312][166]LogTemp: Error:  22160102140n pressure plate!
+[2018.08.21-05.29.49:328][167]LogTemp: Error:  22160102000n pressure plate!
+[2018.08.21-05.29.49:345][168]LogTemp: Error:  22160101640n pressure plate!
+[2018.08.21-05.29.49:363][169]LogTemp: Error:  22160101500n pressure plate!
+[2018.08.21-05.29.49:378][170]LogTemp: Error:  22160101340n pressure plate!
+[2018.08.21-05.29.49:396][171]LogTemp: Error:  22160101200n pressure plate!
+[2018.08.21-05.29.49:412][172]LogTemp: Error:  22160101040n pressure plate!
+[2018.08.21-05.29.49:429][173]LogTemp: Error:  22160100700n pressure plate!
+[2018.08.21-05.29.49:446][174]LogTemp: Error:  22160100540n pressure plate!
+[2018.08.21-05.29.49:462][175]LogTemp: Error:  22160100400n pressure plate!
+[2018.08.21-05.29.49:479][176]LogTemp: Warning: Grab released!
+[2018.08.21-05.29.49:480][176]LogTemp: Error:  31536137560n pressure plate!
+[2018.08.21-05.29.49:495][177]LogTemp: Error:  31536132660n pressure plate!
+[2018.08.21-05.29.49:513][178]LogTemp: Error:  31536132520n pressure plate!
+[2018.08.21-05.29.49:529][179]LogTemp: Error:  31536132360n pressure plate!
+[2018.08.21-05.29.49:546][180]LogTemp: Error:  31536132220n pressure plate!
+[2018.08.21-05.29.49:562][181]LogTemp: Error:  31536132060n pressure plate!
+[2018.08.21-05.29.49:579][182]LogTemp: Error:  31536131720n pressure plate!
+[2018.08.21-05.29.49:595][183]LogTemp: Error:  31536131560n pressure plate!
+[2018.08.21-05.29.49:612][184]LogTemp: Error:  31536131420n pressure plate!
+[2018.08.21-05.29.49:628][185]LogTemp: Error:  31536131260n pressure plate!
+[2018.08.21-05.29.49:646][186]LogTemp: Error:  31536131120n pressure plate!
+[2018.08.21-05.29.49:663][187]LogTemp: Error:  31536130760n pressure plate!
+[2018.08.21-05.29.49:679][188]LogTemp: Error:  31536130620n pressure plate!
+[2018.08.21-05.29.49:695][189]LogTemp: Error:  31536130400n pressure plate!
+[2018.08.21-05.29.49:712][190]LogTemp: Error:  31536130240n pressure plate!
+[2018.08.21-05.29.49:728][191]LogTemp: Error:  31536130100n pressure plate!
+[2018.08.21-05.29.49:745][192]LogTemp: Error:  31536127740n pressure plate!
+[2018.08.21-05.29.49:762][193]LogTemp: Error:  31536127600n pressure plate!
+[2018.08.21-05.29.49:778][194]LogTemp: Error:  31536127440n pressure plate!
+[2018.08.21-05.29.49:795][195]LogTemp: Error:  31536127300n pressure plate!
+[2018.08.21-05.29.49:812][196]LogTemp: Error:  31536127140n pressure plate!
+[2018.08.21-05.29.49:828][197]LogTemp: Error:  31536127000n pressure plate!
+[2018.08.21-05.29.49:846][198]LogTemp: Error:  31536126640n pressure plate!
+[2018.08.21-05.29.49:862][199]LogTemp: Error:  31536126500n pressure plate!
+[2018.08.21-05.29.49:879][200]LogTemp: Error:  31536126340n pressure plate!
+[2018.08.21-05.29.49:895][201]LogTemp: Error:  31536126200n pressure plate!
+[2018.08.21-05.29.49:911][202]LogTemp: Error:  31536126040n pressure plate!
+[2018.08.21-05.29.49:929][203]LogTemp: Error:  31536125700n pressure plate!
+[2018.08.21-05.29.49:945][204]LogTemp: Error:  31536125540n pressure plate!
+[2018.08.21-05.29.49:961][205]LogTemp: Error:  31536125400n pressure plate!
+[2018.08.21-05.29.49:978][206]LogTemp: Error:  31536125240n pressure plate!
+[2018.08.21-05.29.49:995][207]LogTemp: Error:  31536125100n pressure plate!
+[2018.08.21-05.29.50:011][208]LogTemp: Error:  31536124740n pressure plate!
+[2018.08.21-05.29.50:028][209]LogTemp: Error:  31536124600n pressure plate!
+[2018.08.21-05.29.50:045][210]LogTemp: Error:  31536124440n pressure plate!
+[2018.08.21-05.29.50:062][211]LogTemp: Error:  31536124300n pressure plate!
+[2018.08.21-05.29.50:079][212]LogTemp: Error:  31536124140n pressure plate!
+[2018.08.21-05.29.50:096][213]LogTemp: Error:  31536124000n pressure plate!
+[2018.08.21-05.29.50:112][214]LogTemp: Error:  31536123640n pressure plate!
+[2018.08.21-05.29.50:128][215]LogTemp: Error:  31536123500n pressure plate!
+[2018.08.21-05.29.50:145][216]LogTemp: Error:  31536123340n pressure plate!
+[2018.08.21-05.29.50:162][217]LogTemp: Error:  31536123200n pressure plate!
+[2018.08.21-05.29.50:179][218]LogTemp: Error:  31536123040n pressure plate!
+[2018.08.21-05.29.50:195][219]LogTemp: Error:  31536122700n pressure plate!
+[2018.08.21-05.29.50:212][220]LogTemp: Error:  31536122540n pressure plate!
+[2018.08.21-05.29.50:228][221]LogTemp: Error:  31536122400n pressure plate!
+[2018.08.21-05.29.50:245][222]LogTemp: Error:  31536122240n pressure plate!
+[2018.08.21-05.29.50:262][223]LogTemp: Error:  31536122100n pressure plate!
+[2018.08.21-05.29.50:278][224]LogTemp: Error:  31536121740n pressure plate!
+[2018.08.21-05.29.50:295][225]LogTemp: Error:  31536121600n pressure plate!
+[2018.08.21-05.29.50:312][226]LogTemp: Error:  31536121440n pressure plate!
+[2018.08.21-05.29.50:328][227]LogTemp: Error:  31536121300n pressure plate!
+[2018.08.21-05.29.50:345][228]LogTemp: Error:  31536121140n pressure plate!
+[2018.08.21-05.29.50:361][229]LogTemp: Error:  31536121000n pressure plate!
+[2018.08.21-05.29.50:379][230]LogTemp: Error:  31536120640n pressure plate!
+[2018.08.21-05.29.50:395][231]LogTemp: Error:  31536120500n pressure plate!
+[2018.08.21-05.29.50:412][232]LogTemp: Error:  31536120340n pressure plate!
+[2018.08.21-05.29.50:429][233]LogTemp: Error:  31536120200n pressure plate!
+[2018.08.21-05.29.50:446][234]LogTemp: Error:  31536120040n pressure plate!
+[2018.08.21-05.29.50:461][235]LogTemp: Error:  31536117700n pressure plate!
+[2018.08.21-05.29.50:478][236]LogTemp: Error:  31536117540n pressure plate!
+[2018.08.21-05.29.50:495][237]LogTemp: Error:  31536117460n pressure plate!
+[2018.08.21-05.29.50:511][238]LogTemp: Error:  31536117320n pressure plate!
+[2018.08.21-05.29.50:528][239]LogTemp: Error:  31536117160n pressure plate!
+[2018.08.21-05.29.50:545][240]LogTemp: Error:  31536117020n pressure plate!
+[2018.08.21-05.29.50:561][241]LogTemp: Error:  31536116660n pressure plate!
+[2018.08.21-05.29.50:578][242]LogTemp: Error:  31536116520n pressure plate!
+[2018.08.21-05.29.50:595][243]LogTemp: Error:  31536116360n pressure plate!
+[2018.08.21-05.29.50:613][244]LogTemp: Error:  31536116220n pressure plate!
+[2018.08.21-05.29.50:629][245]LogTemp: Error:  31536116000n pressure plate!
+[2018.08.21-05.29.50:646][246]LogTemp: Error:  31536115640n pressure plate!
+[2018.08.21-05.29.50:662][247]LogTemp: Error:  31536115500n pressure plate!
+[2018.08.21-05.29.50:679][248]LogTemp: Error:  31536115340n pressure plate!
+[2018.08.21-05.29.50:696][249]LogTemp: Error:  31536115200n pressure plate!
+[2018.08.21-05.29.50:712][250]LogTemp: Error:  31536115040n pressure plate!
+[2018.08.21-05.29.50:729][251]LogTemp: Error:  31536114700n pressure plate!
+[2018.08.21-05.29.53:330][407]LogTemp: Warning: Grab pressed!
+[2018.08.21-05.29.53:330][407]LogTemp: Warning: Line Trace Hit: SM_Chair_2
+[2018.08.21-05.29.54:030][449]LogTemp: Error:  31536116220n pressure plate!
+[2018.08.21-05.29.54:045][450]LogTemp: Error:  31536113140n pressure plate!
+[2018.08.21-05.29.54:063][451]LogTemp: Error:  31536113300n pressure plate!
+[2018.08.21-05.29.54:079][452]LogTemp: Error:  31536114400n pressure plate!
+[2018.08.21-05.29.54:095][453]LogTemp: Error:  31536112720n pressure plate!
+[2018.08.21-05.29.54:112][454]LogTemp: Error:  31536112560n pressure plate!
+[2018.08.21-05.29.54:129][455]LogTemp: Error:  31536112420n pressure plate!
+[2018.08.21-05.29.54:146][456]LogTemp: Error:  31536112260n pressure plate!
+[2018.08.21-05.29.54:163][457]LogTemp: Error:  31536112120n pressure plate!
+[2018.08.21-05.29.54:178][458]LogTemp: Error:  31536111760n pressure plate!
+[2018.08.21-05.29.54:195][459]LogTemp: Error:  31536111620n pressure plate!
+[2018.08.21-05.29.54:212][460]LogTemp: Error:  31536111460n pressure plate!
+[2018.08.21-05.29.54:229][461]LogTemp: Error:  31536111320n pressure plate!
+[2018.08.21-05.29.54:245][462]LogTemp: Error:  31536111160n pressure plate!
+[2018.08.21-05.29.54:262][463]LogTemp: Error:  31536111020n pressure plate!
+[2018.08.21-05.29.54:279][464]LogTemp: Error:  31536110660n pressure plate!
+[2018.08.21-05.29.54:295][465]LogTemp: Error:  31536110520n pressure plate!
+[2018.08.21-05.29.54:312][466]LogTemp: Error:  31536110360n pressure plate!
+[2018.08.21-05.29.54:329][467]LogTemp: Error:  31536110220n pressure plate!
+[2018.08.21-05.29.54:345][468]LogTemp: Error:  31536110060n pressure plate!
+[2018.08.21-05.29.54:362][469]LogTemp: Error:  31536107720n pressure plate!
+[2018.08.21-05.29.54:379][470]LogTemp: Error:  31536107560n pressure plate!
+[2018.08.21-05.29.54:395][471]LogTemp: Error:  31536107420n pressure plate!
+[2018.08.21-05.29.54:413][472]LogTemp: Error:  31536107260n pressure plate!
+[2018.08.21-05.29.54:429][473]LogTemp: Error:  31536107120n pressure plate!
+[2018.08.21-05.29.54:446][474]LogTemp: Error:  31536106760n pressure plate!
+[2018.08.21-05.29.54:462][475]LogTemp: Error:  31536106620n pressure plate!
+[2018.08.21-05.29.54:478][476]LogTemp: Error:  31536106460n pressure plate!
+[2018.08.21-05.29.54:495][477]LogTemp: Error:  31536106320n pressure plate!
+[2018.08.21-05.29.54:512][478]LogTemp: Error:  31536106160n pressure plate!
+[2018.08.21-05.29.54:529][479]LogTemp: Error:  31536106020n pressure plate!
+[2018.08.21-05.29.54:545][480]LogTemp: Error:  31536105660n pressure plate!
+[2018.08.21-05.29.54:562][481]LogTemp: Error:  31536105520n pressure plate!
+[2018.08.21-05.29.54:579][482]LogTemp: Error:  31536105360n pressure plate!
+[2018.08.21-05.29.54:595][483]LogTemp: Error:  31536105220n pressure plate!
+[2018.08.21-05.29.54:612][484]LogTemp: Error:  31536105060n pressure plate!
+[2018.08.21-05.29.54:629][485]LogTemp: Error:  31536104720n pressure plate!
+[2018.08.21-05.29.54:645][486]LogTemp: Error:  31536104560n pressure plate!
+[2018.08.21-05.29.54:662][487]LogTemp: Error:  31536104420n pressure plate!
+[2018.08.21-05.29.54:679][488]LogTemp: Error:  31536104260n pressure plate!
+[2018.08.21-05.29.54:695][489]LogTemp: Error:  31536104120n pressure plate!
+[2018.08.21-05.29.54:712][490]LogTemp: Error:  31536103760n pressure plate!
+[2018.08.21-05.29.54:729][491]LogTemp: Error:  31536103620n pressure plate!
+[2018.08.21-05.29.54:746][492]LogTemp: Error:  31536103460n pressure plate!
+[2018.08.21-05.29.55:363][529]LogTemp: Error:  31536114020n pressure plate!
+[2018.08.21-05.29.55:379][530]LogTemp: Error:  31536103160n pressure plate!
+[2018.08.21-05.29.55:395][531]LogTemp: Error:  31536103020n pressure plate!
+[2018.08.21-05.29.55:412][532]LogTemp: Error:  31536102660n pressure plate!
+[2018.08.21-05.29.55:429][533]LogTemp: Error:  31536102520n pressure plate!
+[2018.08.21-05.29.55:445][534]LogTemp: Error:  31536102360n pressure plate!
+[2018.08.21-05.29.55:462][535]LogTemp: Error:  31536102220n pressure plate!
+[2018.08.21-05.29.55:479][536]LogTemp: Error:  31536102060n pressure plate!
+[2018.08.21-05.29.55:496][537]LogTemp: Error:  31536101720n pressure plate!
+[2018.08.21-05.29.55:512][538]LogTemp: Error:  31536101560n pressure plate!
+[2018.08.21-05.29.55:528][539]LogTemp: Error:  31536101420n pressure plate!
+[2018.08.21-05.29.55:546][540]LogTemp: Error:  31536101260n pressure plate!
+[2018.08.21-05.29.55:562][541]LogTemp: Error:  31536101120n pressure plate!
+[2018.08.21-05.29.55:579][542]LogTemp: Error:  31536100760n pressure plate!
+[2018.08.21-05.29.55:596][543]LogTemp: Error:  31536100620n pressure plate!
+[2018.08.21-05.29.55:612][544]LogTemp: Error:  31536100460n pressure plate!
+[2018.08.21-05.29.55:629][545]LogTemp: Error:  31536100320n pressure plate!
+[2018.08.21-05.29.55:646][546]LogTemp: Error:  22135337720n pressure plate!
+[2018.08.21-05.29.55:663][547]LogTemp: Error:  22135332740n pressure plate!
+[2018.08.21-05.29.55:679][548]LogTemp: Error:  22135332600n pressure plate!
+[2018.08.21-05.29.55:696][549]LogTemp: Error:  22135332360n pressure plate!
+[2018.08.21-05.29.55:713][550]LogTemp: Error:  22135332220n pressure plate!
+[2018.08.21-05.29.55:729][551]LogTemp: Error:  22135332060n pressure plate!
+[2018.08.21-05.29.55:746][552]LogTemp: Error:  22135337500n pressure plate!
+[2018.08.21-05.29.55:762][553]LogTemp: Error:  22135331640n pressure plate!
+[2018.08.21-05.29.55:779][554]LogTemp: Error:  22135331260n pressure plate!
+[2018.08.21-05.29.55:796][555]LogTemp: Error:  22135333020n pressure plate!
+[2018.08.21-05.29.55:812][556]LogTemp: Error:  22135330760n pressure plate!
+[2018.08.21-05.29.55:828][557]LogTemp: Error:  22135331340n pressure plate!
+[2018.08.21-05.29.55:846][558]LogTemp: Error:  22135330240n pressure plate!
+[2018.08.21-05.29.55:863][559]LogTemp: Error:  22135330100n pressure plate!
+[2018.08.21-05.29.55:879][560]LogTemp: Warning: Grab released!
+[2018.08.21-05.29.55:880][560]LogTemp: Error:  22135332440n pressure plate!
+[2018.08.21-05.29.55:896][561]LogTemp: Error:  22135327520n pressure plate!
+[2018.08.21-05.29.55:912][562]LogTemp: Error:  22135327300n pressure plate!
+[2018.08.21-05.29.55:929][563]LogTemp: Error:  22135327140n pressure plate!
+[2018.08.21-05.29.55:946][564]LogTemp: Error:  22135327000n pressure plate!
+[2018.08.21-05.29.55:962][565]LogTemp: Error:  22135326640n pressure plate!
+[2018.08.21-05.29.55:979][566]LogTemp: Error:  22135326500n pressure plate!
+[2018.08.21-05.29.55:995][567]LogTemp: Error:  22135326340n pressure plate!
+[2018.08.21-05.29.56:012][568]LogTemp: Error:  22135326200n pressure plate!
+[2018.08.21-05.29.56:029][569]LogTemp: Error:  22135326040n pressure plate!
+[2018.08.21-05.29.56:045][570]LogTemp: Error:  22135325700n pressure plate!
+[2018.08.21-05.29.56:062][571]LogTemp: Error:  22135325540n pressure plate!
+[2018.08.21-05.29.56:078][572]LogTemp: Error:  22135325400n pressure plate!
+[2018.08.21-05.29.56:095][573]LogTemp: Error:  22135325240n pressure plate!
+[2018.08.21-05.29.56:112][574]LogTemp: Error:  22135325100n pressure plate!
+[2018.08.21-05.29.56:128][575]LogTemp: Error:  22135324740n pressure plate!
+[2018.08.21-05.29.56:146][576]LogTemp: Error:  22135324600n pressure plate!
+[2018.08.21-05.29.56:162][577]LogTemp: Error:  22135324440n pressure plate!
+[2018.08.21-05.29.56:179][578]LogTemp: Error:  22135324300n pressure plate!
+[2018.08.21-05.29.56:195][579]LogTemp: Error:  22135324140n pressure plate!
+[2018.08.21-05.29.56:212][580]LogTemp: Error:  22135324000n pressure plate!
+[2018.08.21-05.29.56:229][581]LogTemp: Error:  22135323640n pressure plate!
+[2018.08.21-05.29.56:245][582]LogTemp: Error:  22135323500n pressure plate!
+[2018.08.21-05.29.56:262][583]LogTemp: Error:  22135323340n pressure plate!
+[2018.08.21-05.29.56:279][584]LogTemp: Error:  22135323200n pressure plate!
+[2018.08.21-05.29.56:295][585]LogTemp: Error:  22135323040n pressure plate!
+[2018.08.21-05.29.56:312][586]LogTemp: Error:  22135322700n pressure plate!
+[2018.08.21-05.29.56:329][587]LogTemp: Error:  22135322540n pressure plate!
+[2018.08.21-05.29.56:345][588]LogTemp: Error:  22135322400n pressure plate!
+[2018.08.21-05.29.56:362][589]LogTemp: Error:  22135322240n pressure plate!
+[2018.08.21-05.29.56:379][590]LogTemp: Error:  22135322100n pressure plate!
+[2018.08.21-05.29.56:396][591]LogTemp: Error:  22135321740n pressure plate!
+[2018.08.21-05.29.56:412][592]LogTemp: Error:  22135321600n pressure plate!
+[2018.08.21-05.29.56:428][593]LogTemp: Error:  22135321440n pressure plate!
+[2018.08.21-05.29.56:445][594]LogTemp: Error:  22135321300n pressure plate!
+[2018.08.21-05.29.56:462][595]LogTemp: Error:  22135321140n pressure plate!
+[2018.08.21-05.29.56:478][596]LogTemp: Error:  22135321000n pressure plate!
+[2018.08.21-05.29.56:495][597]LogTemp: Error:  22135320640n pressure plate!
+[2018.08.21-05.29.56:512][598]LogTemp: Error:  22135320500n pressure plate!
+[2018.08.21-05.29.56:528][599]LogTemp: Error:  22135320340n pressure plate!
+[2018.08.21-05.29.56:545][600]LogTemp: Error:  22135320200n pressure plate!
+[2018.08.21-05.29.56:562][601]LogTemp: Error:  22135320040n pressure plate!
+[2018.08.21-05.29.56:579][602]LogTemp: Error:  22135317700n pressure plate!
+[2018.08.21-05.29.56:595][603]LogTemp: Error:  22135317540n pressure plate!
+[2018.08.21-05.29.56:612][604]LogTemp: Error:  22135317400n pressure plate!
+[2018.08.21-05.29.56:629][605]LogTemp: Error:  22135317240n pressure plate!
+[2018.08.21-05.29.56:645][606]LogTemp: Error:  22135317100n pressure plate!
+[2018.08.21-05.29.56:662][607]LogTemp: Error:  22135316740n pressure plate!
+[2018.08.21-05.29.56:679][608]LogTemp: Error:  22135316600n pressure plate!
+[2018.08.21-05.29.56:695][609]LogTemp: Error:  22135316440n pressure plate!
+[2018.08.21-05.29.56:712][610]LogTemp: Error:  22135316300n pressure plate!
+[2018.08.21-05.29.56:729][611]LogTemp: Error:  22135316140n pressure plate!
+[2018.08.21-05.29.56:746][612]LogTemp: Error:  22135316000n pressure plate!
+[2018.08.21-05.29.56:763][613]LogTemp: Error:  22135315640n pressure plate!
+[2018.08.21-05.29.56:779][614]LogTemp: Error:  22135315500n pressure plate!
+[2018.08.21-05.29.56:796][615]LogTemp: Error:  22135315340n pressure plate!
+[2018.08.21-05.29.56:813][616]LogTemp: Error:  22135315200n pressure plate!
+[2018.08.21-05.29.56:829][617]LogTemp: Error:  22135315040n pressure plate!
+[2018.08.21-05.29.56:846][618]LogTemp: Error:  22135314700n pressure plate!
+[2018.08.21-05.29.56:863][619]LogTemp: Error:  22135314540n pressure plate!
+[2018.08.21-05.29.56:879][620]LogTemp: Error:  22135314400n pressure plate!
+[2018.08.21-05.29.56:895][621]LogTemp: Error:  22135314240n pressure plate!
+[2018.08.21-05.29.56:913][622]LogTemp: Error:  22135314100n pressure plate!
+[2018.08.21-05.29.56:929][623]LogTemp: Error:  22135313740n pressure plate!
+[2018.08.21-05.29.56:946][624]LogTemp: Error:  22135313440n pressure plate!
+[2018.08.21-05.29.56:963][625]LogTemp: Error:  22135313300n pressure plate!
+[2018.08.21-05.29.56:979][626]LogTemp: Error:  22135313140n pressure plate!
+[2018.08.21-05.29.56:996][627]LogTemp: Error:  22135313000n pressure plate!
+[2018.08.21-05.29.57:012][628]LogTemp: Error:  22135312640n pressure plate!
+[2018.08.21-05.29.57:028][629]LogTemp: Error:  22135331500n pressure plate!
+[2018.08.21-05.29.57:045][630]LogTemp: Error:  22135312500n pressure plate!
+[2018.08.21-05.29.57:062][631]LogTemp: Error:  22135312340n pressure plate!
+[2018.08.21-05.29.57:079][632]LogTemp: Error:  22135312200n pressure plate!
+[2018.08.21-05.29.57:095][633]LogTemp: Error:  22135312040n pressure plate!
+[2018.08.21-05.29.57:112][634]LogTemp: Error:  22135311700n pressure plate!
+[2018.08.21-05.29.57:128][635]LogTemp: Error:  22135311540n pressure plate!
+[2018.08.21-05.29.57:145][636]LogTemp: Error:  22135311400n pressure plate!
+[2018.08.21-05.29.57:162][637]LogTemp: Error:  22135311240n pressure plate!
+[2018.08.21-05.29.57:179][638]LogTemp: Error:  22135311100n pressure plate!
+[2018.08.21-05.29.57:195][639]LogTemp: Error:  22135310740n pressure plate!
+[2018.08.21-05.29.57:212][640]LogTemp: Error:  22135310600n pressure plate!
+[2018.08.21-05.29.57:229][641]LogTemp: Error:  22135310440n pressure plate!
+[2018.08.21-05.29.57:245][642]LogTemp: Error:  22135310300n pressure plate!
+[2018.08.21-05.29.57:263][643]LogTemp: Error:  22135310140n pressure plate!
+[2018.08.21-05.29.57:279][644]LogTemp: Error:  22135310000n pressure plate!
+[2018.08.21-05.29.57:296][645]LogTemp: Error:  22135307640n pressure plate!
+[2018.08.21-05.29.57:313][646]LogTemp: Error:  22135307560n pressure plate!
+[2018.08.21-05.29.57:329][647]LogTemp: Error:  22135307260n pressure plate!
+[2018.08.21-05.29.57:346][648]LogTemp: Error:  22135307120n pressure plate!
+[2018.08.21-05.29.57:362][649]LogTemp: Error:  22135306760n pressure plate!
+[2018.08.21-05.29.57:379][650]LogTemp: Error:  22135306620n pressure plate!
+[2018.08.21-05.29.57:395][651]LogTemp: Error:  22135306460n pressure plate!
+[2018.08.21-05.29.57:412][652]LogTemp: Error:  22135306320n pressure plate!
+[2018.08.21-05.29.57:428][653]LogTemp: Error:  22135306160n pressure plate!
+[2018.08.21-05.29.57:445][654]LogTemp: Error:  22135306020n pressure plate!
+[2018.08.21-05.29.57:462][655]LogTemp: Error:  22135305660n pressure plate!
+[2018.08.21-05.29.57:479][656]LogTemp: Error:  22135305520n pressure plate!
+[2018.08.21-05.29.57:495][657]LogTemp: Error:  22135305360n pressure plate!
+[2018.08.21-05.29.57:512][658]LogTemp: Error:  22135305220n pressure plate!
+[2018.08.21-05.29.57:529][659]LogTemp: Error:  22135305060n pressure plate!
+[2018.08.21-05.29.57:546][660]LogTemp: Error:  22135304720n pressure plate!
+[2018.08.21-05.29.57:563][661]LogTemp: Error:  22135304560n pressure plate!
+[2018.08.21-05.29.57:579][662]LogTemp: Error:  22135304420n pressure plate!
+[2018.08.21-05.29.57:596][663]LogTemp: Error:  22135304260n pressure plate!
+[2018.08.21-05.29.57:612][664]LogTemp: Error:  22135304120n pressure plate!
+[2018.08.21-05.29.57:629][665]LogTemp: Error:  22135303760n pressure plate!
+[2018.08.21-05.29.57:646][666]LogTemp: Error:  22135303620n pressure plate!
+[2018.08.21-05.29.57:663][667]LogTemp: Error:  22135303460n pressure plate!
+[2018.08.21-05.29.57:678][668]LogTemp: Error:  22135303320n pressure plate!
+[2018.08.21-05.29.57:695][669]LogTemp: Error:  22135303160n pressure plate!
+[2018.08.21-05.29.57:712][670]LogTemp: Error:  22135303020n pressure plate!
+[2018.08.21-05.29.57:728][671]LogTemp: Error:  22135302660n pressure plate!
+[2018.08.21-05.29.57:745][672]LogTemp: Error:  22135302520n pressure plate!
+[2018.08.21-05.29.57:763][673]LogTemp: Error:  22135302360n pressure plate!
+[2018.08.21-05.29.57:779][674]LogTemp: Error:  22135302220n pressure plate!
+[2018.08.21-05.29.57:796][675]LogTemp: Error:  22135302060n pressure plate!
+[2018.08.21-05.29.57:813][676]LogTemp: Error:  22135301720n pressure plate!
+[2018.08.21-05.29.57:829][677]LogTemp: Error:  22135301560n pressure plate!
+[2018.08.21-05.29.57:846][678]LogTemp: Error:  22135301420n pressure plate!
+[2018.08.21-05.29.57:862][679]LogTemp: Error:  22135301260n pressure plate!
+[2018.08.21-05.29.57:879][680]LogTemp: Error:  22135301120n pressure plate!
+[2018.08.21-05.29.57:896][681]LogTemp: Error:  22135300760n pressure plate!
+[2018.08.21-05.29.57:912][682]LogTemp: Error:  22135300620n pressure plate!
+[2018.08.21-05.29.57:929][683]LogTemp: Error:  22135300460n pressure plate!
+[2018.08.21-05.29.57:946][684]LogTemp: Error:  22135300320n pressure plate!
+[2018.08.21-05.29.57:963][685]LogTemp: Error:  20625277720n pressure plate!
+[2018.08.21-05.29.57:979][686]LogTemp: Error:  20625273100n pressure plate!
+[2018.08.21-05.29.57:996][687]LogTemp: Error:  20625272740n pressure plate!
+[2018.08.21-05.29.58:012][688]LogTemp: Error:  20625272600n pressure plate!
+[2018.08.21-05.29.58:029][689]LogTemp: Error:  20625272440n pressure plate!
+[2018.08.21-05.29.58:046][690]LogTemp: Error:  20625272300n pressure plate!
+[2018.08.21-05.29.58:062][691]LogTemp: Error:  20625272140n pressure plate!
+[2018.08.21-05.29.58:079][692]LogTemp: Error:  20625272000n pressure plate!
+[2018.08.21-05.29.58:096][693]LogTemp: Error:  20625271560n pressure plate!
+[2018.08.21-05.29.58:112][694]LogTemp: Error:  20625271420n pressure plate!
+[2018.08.21-05.29.58:129][695]LogTemp: Error:  20625271260n pressure plate!
+[2018.08.21-05.29.58:145][696]LogTemp: Error:  20625271120n pressure plate!
+[2018.08.21-05.29.58:163][697]LogTemp: Error:  20625270760n pressure plate!
+[2018.08.21-05.29.58:179][698]LogTemp: Error:  20625270620n pressure plate!
+[2018.08.21-05.29.58:196][699]LogTemp: Error:  20625270460n pressure plate!
+[2018.08.21-05.29.58:213][700]LogTemp: Error:  20625270320n pressure plate!
+[2018.08.21-05.29.58:229][701]LogTemp: Error:  20625270160n pressure plate!
+[2018.08.21-05.29.58:246][702]LogTemp: Error:  20625270020n pressure plate!
+[2018.08.21-05.29.58:263][703]LogTemp: Error:  20625267660n pressure plate!
+[2018.08.21-05.29.58:280][704]LogTemp: Error:  20625267300n pressure plate!
+[2018.08.21-05.29.58:296][705]LogTemp: Error:  20625273020n pressure plate!
+[2018.08.21-05.29.58:313][706]LogTemp: Error:  20625267000n pressure plate!
+[2018.08.21-05.29.58:330][707]LogTemp: Error:  20625267360n pressure plate!
+[2018.08.21-05.29.58:345][708]LogTemp: Error:  20625266260n pressure plate!
+[2018.08.21-05.29.58:363][709]LogTemp: Error:  20625266120n pressure plate!
+[2018.08.21-05.29.58:379][710]LogTemp: Error:  20625265760n pressure plate!
+[2018.08.21-05.29.58:396][711]LogTemp: Error:  20625265620n pressure plate!
+[2018.08.21-05.29.58:413][712]LogTemp: Error:  20625265460n pressure plate!
+[2018.08.21-05.29.58:429][713]LogTemp: Error:  20625265320n pressure plate!
+[2018.08.21-05.29.58:445][714]LogTemp: Error:  20625265160n pressure plate!
+[2018.08.21-05.29.58:462][715]LogTemp: Error:  20625265020n pressure plate!
+[2018.08.21-05.29.58:479][716]LogTemp: Error:  20625264660n pressure plate!
+[2018.08.21-05.29.58:495][717]LogTemp: Error:  20625264520n pressure plate!
+[2018.08.21-05.29.58:513][718]LogTemp: Error:  20625264360n pressure plate!
+[2018.08.21-05.29.58:530][719]LogTemp: Error:  20625264220n pressure plate!
+[2018.08.21-05.29.58:546][720]LogTemp: Error:  20625264060n pressure plate!
+[2018.08.21-05.29.58:563][721]LogTemp: Error:  20625263720n pressure plate!
+[2018.08.21-05.29.58:579][722]LogTemp: Error:  20625263560n pressure plate!
+[2018.08.21-05.29.58:596][723]LogTemp: Error:  20625263420n pressure plate!
+[2018.08.21-05.29.58:612][724]LogTemp: Error:  20625263260n pressure plate!
+[2018.08.21-05.29.58:629][725]LogTemp: Error:  20625263120n pressure plate!
+[2018.08.21-05.29.58:646][726]LogTemp: Error:  20625262760n pressure plate!
+[2018.08.21-05.29.58:663][727]LogTemp: Error:  20625262620n pressure plate!
+[2018.08.21-05.29.58:679][728]LogTemp: Error:  20625262460n pressure plate!
+[2018.08.21-05.29.58:696][729]LogTemp: Error:  20625262240n pressure plate!
+[2018.08.21-05.29.58:712][730]LogTemp: Error:  20625262100n pressure plate!
+[2018.08.21-05.29.58:729][731]LogTemp: Error:  20625261740n pressure plate!
+[2018.08.21-05.29.58:745][732]LogTemp: Error:  20625261600n pressure plate!
+[2018.08.21-05.29.58:763][733]LogTemp: Error:  20625261440n pressure plate!
+[2018.08.21-05.29.58:780][734]LogTemp: Error:  20625261300n pressure plate!
+[2018.08.21-05.29.58:796][735]LogTemp: Error:  20625261140n pressure plate!
+[2018.08.21-05.29.58:813][736]LogTemp: Error:  20625261000n pressure plate!
+[2018.08.21-05.29.58:829][737]LogTemp: Error:  20625260640n pressure plate!
+[2018.08.21-05.29.58:846][738]LogTemp: Error:  20625260500n pressure plate!
+[2018.08.21-05.29.58:863][739]LogTemp: Error:  20625260340n pressure plate!
+[2018.08.21-05.29.58:880][740]LogTemp: Error:  20625260200n pressure plate!
+[2018.08.21-05.29.58:896][741]LogTemp: Error:  20625260040n pressure plate!
+[2018.08.21-05.29.58:912][742]LogTemp: Error:  20625257700n pressure plate!
+[2018.08.21-05.29.58:929][743]LogTemp: Error:  20625257540n pressure plate!
+[2018.08.21-05.29.58:946][744]LogTemp: Error:  20625257400n pressure plate!
+[2018.08.21-05.29.58:963][745]LogTemp: Error:  20625257240n pressure plate!
+[2018.08.21-05.29.58:979][746]LogTemp: Error:  20625257100n pressure plate!
+[2018.08.21-05.29.58:996][747]LogTemp: Error:  20625256740n pressure plate!
+[2018.08.21-05.29.59:013][748]LogTemp: Error:  20625256600n pressure plate!
+[2018.08.21-05.29.59:029][749]LogTemp: Error:  20625256440n pressure plate!
+[2018.08.21-05.29.59:046][750]LogTemp: Error:  20625256300n pressure plate!
+[2018.08.21-05.29.59:063][751]LogTemp: Error:  20625256140n pressure plate!
+[2018.08.21-05.29.59:079][752]LogTemp: Error:  20625256000n pressure plate!
+[2018.08.21-05.29.59:096][753]LogTemp: Error:  20625255640n pressure plate!
+[2018.08.21-05.29.59:112][754]LogTemp: Error:  20625255500n pressure plate!
+[2018.08.21-05.29.59:129][755]LogTemp: Error:  20625255340n pressure plate!
+[2018.08.21-05.29.59:146][756]LogTemp: Error:  20625255200n pressure plate!
+[2018.08.21-05.29.59:163][757]LogTemp: Error:  20625255040n pressure plate!
+[2018.08.21-05.29.59:179][758]LogTemp: Error:  20625254700n pressure plate!
+[2018.08.21-05.29.59:197][759]LogTemp: Error:  20625254540n pressure plate!
+[2018.08.21-05.29.59:213][760]LogTemp: Error:  20625254400n pressure plate!
+[2018.08.21-05.29.59:229][761]LogTemp: Error:  20625254240n pressure plate!
+[2018.08.21-05.29.59:246][762]LogTemp: Error:  20625254100n pressure plate!
+[2018.08.21-05.29.59:263][763]LogTemp: Error:  20625253740n pressure plate!
+[2018.08.21-05.29.59:279][764]LogTemp: Error:  20625253600n pressure plate!
+[2018.08.21-05.29.59:296][765]LogTemp: Error:  20625253440n pressure plate!
+[2018.08.21-05.29.59:312][766]LogTemp: Error:  20625253300n pressure plate!
+[2018.08.21-05.29.59:329][767]LogTemp: Error:  20625253140n pressure plate!
+[2018.08.21-05.29.59:345][768]LogTemp: Error:  20625253000n pressure plate!
+[2018.08.21-05.29.59:363][769]LogTemp: Error:  20625252640n pressure plate!
+[2018.08.21-05.29.59:378][770]LogTemp: Error:  20625252500n pressure plate!
+[2018.08.21-05.29.59:395][771]LogTemp: Error:  20625252340n pressure plate!
+[2018.08.21-05.29.59:412][772]LogTemp: Error:  20625252200n pressure plate!
+[2018.08.21-05.29.59:429][773]LogTemp: Error:  20625252040n pressure plate!
+[2018.08.21-05.29.59:446][774]LogTemp: Error:  20625251700n pressure plate!
+[2018.08.21-05.29.59:462][775]LogTemp: Error:  20625251540n pressure plate!
+[2018.08.21-05.29.59:479][776]LogTemp: Error:  20625251400n pressure plate!
+[2018.08.21-05.29.59:496][777]LogTemp: Error:  20625251240n pressure plate!
+[2018.08.21-05.29.59:512][778]LogTemp: Error:  20625251100n pressure plate!
+[2018.08.21-05.29.59:529][779]LogTemp: Error:  20625250740n pressure plate!
+[2018.08.21-05.29.59:545][780]LogTemp: Error:  20625250600n pressure plate!
+[2018.08.21-05.29.59:562][781]LogTemp: Error:  20625250440n pressure plate!
+[2018.08.21-05.29.59:579][782]LogTemp: Error:  20625250300n pressure plate!
+[2018.08.21-05.29.59:595][783]LogTemp: Error:  20625250140n pressure plate!
+[2018.08.21-05.29.59:612][784]LogTemp: Error:  20625250000n pressure plate!
+[2018.08.21-05.29.59:629][785]LogTemp: Error:  20625247640n pressure plate!
+[2018.08.21-05.29.59:646][786]LogTemp: Error:  20625247500n pressure plate!
+[2018.08.21-05.29.59:663][787]LogTemp: Error:  20625247340n pressure plate!
+[2018.08.21-05.29.59:679][788]LogTemp: Error:  20625247200n pressure plate!
+[2018.08.21-05.29.59:695][789]LogTemp: Error:  20625247040n pressure plate!
+[2018.08.21-05.29.59:712][790]LogTemp: Error:  20625246700n pressure plate!
+[2018.08.21-05.29.59:729][791]LogTemp: Error:  20625246540n pressure plate!
+[2018.08.21-05.29.59:745][792]LogTemp: Error:  20625246400n pressure plate!
+[2018.08.21-05.29.59:762][793]LogTemp: Error:  20625246240n pressure plate!
+[2018.08.21-05.29.59:779][794]LogTemp: Error:  20625246100n pressure plate!
+[2018.08.21-05.29.59:796][795]LogTemp: Error:  20625245740n pressure plate!
+[2018.08.21-05.29.59:812][796]LogTemp: Error:  20625245600n pressure plate!
+[2018.08.21-05.29.59:829][797]LogTemp: Error:  20625245440n pressure plate!
+[2018.08.21-05.29.59:846][798]LogTemp: Error:  20625245300n pressure plate!
+[2018.08.21-05.29.59:862][799]LogTemp: Error:  20625245140n pressure plate!
+[2018.08.21-05.29.59:879][800]LogTemp: Error:  20625245000n pressure plate!
+[2018.08.21-05.29.59:896][801]LogTemp: Error:  20625244640n pressure plate!
+[2018.08.21-05.29.59:912][802]LogTemp: Error:  20625244500n pressure plate!
+[2018.08.21-05.29.59:929][803]LogTemp: Error:  20625244340n pressure plate!
+[2018.08.21-05.29.59:946][804]LogTemp: Error:  20625244200n pressure plate!
+[2018.08.21-05.29.59:962][805]LogTemp: Error:  20625244040n pressure plate!
+[2018.08.21-05.29.59:979][806]LogTemp: Error:  20625243700n pressure plate!
+[2018.08.21-05.29.59:996][807]LogTemp: Error:  20625243540n pressure plate!
+[2018.08.21-05.30.00:012][808]LogTemp: Error:  20625243400n pressure plate!
+[2018.08.21-05.30.00:029][809]LogTemp: Error:  20625243240n pressure plate!
+[2018.08.21-05.30.00:046][810]LogTemp: Error:  20625243100n pressure plate!
+[2018.08.21-05.30.00:062][811]LogTemp: Error:  20625242740n pressure plate!
+[2018.08.21-05.30.00:079][812]LogTemp: Error:  20625242600n pressure plate!
+[2018.08.21-05.30.00:095][813]LogTemp: Error:  20625242440n pressure plate!
+[2018.08.21-05.30.00:112][814]LogTemp: Error:  20625242300n pressure plate!
+[2018.08.21-05.30.00:129][815]LogTemp: Error:  20625242140n pressure plate!
+[2018.08.21-05.30.00:145][816]LogTemp: Error:  20625242000n pressure plate!
+[2018.08.21-05.30.00:162][817]LogTemp: Error:  20625241640n pressure plate!
+[2018.08.21-05.30.00:179][818]LogTemp: Error:  20625241500n pressure plate!
+[2018.08.21-05.30.00:196][819]LogTemp: Error:  20625241340n pressure plate!
+[2018.08.21-05.30.00:212][820]LogTemp: Error:  20625241200n pressure plate!
+[2018.08.21-05.30.00:229][821]LogTemp: Error:  20625241040n pressure plate!
+[2018.08.21-05.30.00:246][822]LogTemp: Error:  20625240700n pressure plate!
+[2018.08.21-05.30.00:263][823]LogTemp: Error:  20625240540n pressure plate!
+[2018.08.21-05.30.00:279][824]LogTemp: Error:  20625240400n pressure plate!
+[2018.08.21-05.30.00:296][825]LogTemp: Error:  20625240240n pressure plate!
+[2018.08.21-05.30.00:312][826]LogTemp: Error:  22127537720n pressure plate!
+[2018.08.21-05.30.00:329][827]LogTemp: Error:  22127533100n pressure plate!
+[2018.08.21-05.30.00:346][828]LogTemp: Error:  22127532740n pressure plate!
+[2018.08.21-05.30.00:362][829]LogTemp: Error:  22127532600n pressure plate!
+[2018.08.21-05.30.00:379][830]LogTemp: Error:  22127532440n pressure plate!
+[2018.08.21-05.30.00:396][831]LogTemp: Error:  22127532300n pressure plate!
+[2018.08.21-05.30.00:412][832]LogTemp: Error:  22127532220n pressure plate!
+[2018.08.21-05.30.00:429][833]LogTemp: Error:  22127531720n pressure plate!
+[2018.08.21-05.30.00:446][834]LogTemp: Error:  22127531560n pressure plate!
+[2018.08.21-05.30.00:463][835]LogTemp: Error:  22127531420n pressure plate!
+[2018.08.21-05.30.00:480][836]LogTemp: Error:  22127531260n pressure plate!
+[2018.08.21-05.30.00:496][837]LogTemp: Error:  22127531040n pressure plate!
+[2018.08.21-05.30.00:512][838]LogTemp: Error:  22127530700n pressure plate!
+[2018.08.21-05.30.00:529][839]LogTemp: Error:  22127530540n pressure plate!
+[2018.08.21-05.30.00:547][840]LogTemp: Error:  22127530400n pressure plate!
+[2018.08.21-05.30.00:563][841]LogTemp: Error:  22127530240n pressure plate!
+[2018.08.21-05.30.00:580][842]LogTemp: Error:  22127530100n pressure plate!
+[2018.08.21-05.30.00:596][843]LogTemp: Error:  22127527740n pressure plate!
+[2018.08.21-05.30.00:613][844]LogTemp: Error:  22127527600n pressure plate!
+[2018.08.21-05.30.00:630][845]LogTemp: Error:  22127527440n pressure plate!
+[2018.08.21-05.30.00:646][846]LogTemp: Error:  22127527300n pressure plate!
+[2018.08.21-05.30.00:662][847]LogTemp: Error:  22127527140n pressure plate!
+[2018.08.21-05.30.00:679][848]LogTemp: Error:  22127527000n pressure plate!
+[2018.08.21-05.30.00:696][849]LogTemp: Error:  22127526640n pressure plate!
+[2018.08.21-05.30.00:712][850]LogTemp: Error:  22127526500n pressure plate!
+[2018.08.21-05.30.00:729][851]LogTemp: Error:  22127526340n pressure plate!
+[2018.08.21-05.30.00:745][852]LogTemp: Error:  22127526200n pressure plate!
+[2018.08.21-05.30.00:763][853]LogTemp: Error:  22127526040n pressure plate!
+[2018.08.21-05.30.00:779][854]LogTemp: Error:  22127525460n pressure plate!
+[2018.08.21-05.30.00:796][855]LogTemp: Error:  22127532360n pressure plate!
+[2018.08.21-05.30.00:812][856]LogTemp: Error:  22127525160n pressure plate!
+[2018.08.21-05.30.00:830][857]LogTemp: Error:  22127525540n pressure plate!
+[2018.08.21-05.30.00:846][858]LogTemp: Error:  22127524440n pressure plate!
+[2018.08.21-05.30.00:863][859]LogTemp: Error:  22127524300n pressure plate!
+[2018.08.21-05.30.00:880][860]LogTemp: Error:  22127524140n pressure plate!
+[2018.08.21-05.30.00:896][861]LogTemp: Error:  22127524000n pressure plate!
+[2018.08.21-05.30.00:913][862]LogTemp: Error:  22127523720n pressure plate!
+[2018.08.21-05.30.00:929][863]LogTemp: Error:  22127523560n pressure plate!
+[2018.08.21-05.30.00:946][864]LogTemp: Error:  22127523420n pressure plate!
+[2018.08.21-05.30.00:962][865]LogTemp: Error:  22127523260n pressure plate!
+[2018.08.21-05.30.00:979][866]LogTemp: Error:  22127523120n pressure plate!
+[2018.08.21-05.30.00:995][867]LogTemp: Error:  22127522760n pressure plate!
+[2018.08.21-05.30.01:013][868]LogTemp: Error:  22127522620n pressure plate!
+[2018.08.21-05.30.01:029][869]LogTemp: Error:  22127522460n pressure plate!
+[2018.08.21-05.30.01:046][870]LogTemp: Error:  22127522320n pressure plate!
+[2018.08.21-05.30.01:062][871]LogTemp: Error:  22127522160n pressure plate!
+[2018.08.21-05.30.01:079][872]LogTemp: Error:  22127522020n pressure plate!
+[2018.08.21-05.30.01:095][873]LogTemp: Error:  22127521660n pressure plate!
+[2018.08.21-05.30.01:112][874]LogTemp: Error:  22127521520n pressure plate!
+[2018.08.21-05.30.01:128][875]LogTemp: Error:  22127521360n pressure plate!
+[2018.08.21-05.30.01:145][876]LogTemp: Error:  22127521220n pressure plate!
+[2018.08.21-05.30.01:162][877]LogTemp: Error:  22127521060n pressure plate!
+[2018.08.21-05.30.01:179][878]LogTemp: Error:  22127520720n pressure plate!
+[2018.08.21-05.30.01:196][879]LogTemp: Error:  22127520560n pressure plate!
+[2018.08.21-05.30.01:213][880]LogTemp: Error:  22127520420n pressure plate!
+[2018.08.21-05.30.01:229][881]LogTemp: Error:  22127520260n pressure plate!
+[2018.08.21-05.30.01:246][882]LogTemp: Error:  22127520120n pressure plate!
+[2018.08.21-05.30.01:262][883]LogTemp: Error:  22127517760n pressure plate!
+[2018.08.21-05.30.01:279][884]LogTemp: Error:  22127517620n pressure plate!
+[2018.08.21-05.30.01:295][885]LogTemp: Error:  22127517460n pressure plate!
+[2018.08.21-05.30.01:312][886]LogTemp: Error:  22127517320n pressure plate!
+[2018.08.21-05.30.01:330][887]LogTemp: Warning: Grab pressed!
+[2018.08.21-05.30.01:330][887]LogTemp: Warning: Line Trace Hit: SM_Chair_2
+[2018.08.21-05.30.01:330][887]LogTemp: Error:  22127524520n pressure plate!
+[2018.08.21-05.30.01:346][888]LogTemp: Error:  22127516440n pressure plate!
+[2018.08.21-05.30.01:362][889]LogTemp: Error:  22127516300n pressure plate!
+[2018.08.21-05.30.01:379][890]LogTemp: Error:  22127516140n pressure plate!
+[2018.08.21-05.30.01:395][891]LogTemp: Error:  22127516000n pressure plate!
+[2018.08.21-05.30.01:413][892]LogTemp: Error:  22127515640n pressure plate!
+[2018.08.21-05.30.01:429][893]LogTemp: Error:  22127515500n pressure plate!
+[2018.08.21-05.30.01:446][894]LogTemp: Error:  22127515340n pressure plate!
+[2018.08.21-05.30.01:463][895]LogTemp: Error:  22127515200n pressure plate!
+[2018.08.21-05.30.01:479][896]LogTemp: Error:  22127515040n pressure plate!
+[2018.08.21-05.30.01:496][897]LogTemp: Error:  22127514700n pressure plate!
+[2018.08.21-05.30.01:512][898]LogTemp: Error:  22127514540n pressure plate!
+[2018.08.21-05.30.01:529][899]LogTemp: Error:  22127514400n pressure plate!
+[2018.08.21-05.30.01:546][900]LogTemp: Error:  22127514240n pressure plate!
+[2018.08.21-05.30.01:563][901]LogTemp: Error:  22127514100n pressure plate!
+[2018.08.21-05.30.01:579][902]LogTemp: Error:  22127513740n pressure plate!
+[2018.08.21-05.30.01:595][903]LogTemp: Error:  22127513600n pressure plate!
+[2018.08.21-05.30.01:612][904]LogTemp: Error:  22127513440n pressure plate!
+[2018.08.21-05.30.01:629][905]LogTemp: Error:  22127513300n pressure plate!
+[2018.08.21-05.30.01:645][906]LogTemp: Error:  22127513140n pressure plate!
+[2018.08.21-05.30.01:662][907]LogTemp: Error:  22127513000n pressure plate!
+[2018.08.21-05.30.01:680][908]LogTemp: Error:  22127512640n pressure plate!
+[2018.08.21-05.30.01:695][909]LogTemp: Error:  22127512500n pressure plate!
+[2018.08.21-05.30.01:712][910]LogTemp: Error:  22127512340n pressure plate!
+[2018.08.21-05.30.01:730][911]LogTemp: Error:  22127512200n pressure plate!
+[2018.08.21-05.30.01:746][912]LogTemp: Error:  22127512040n pressure plate!
+[2018.08.21-05.30.01:763][913]LogTemp: Error:  22127511700n pressure plate!
+[2018.08.21-05.30.01:779][914]LogTemp: Error:  22127511540n pressure plate!
+[2018.08.21-05.30.01:795][915]LogTemp: Error:  22127511400n pressure plate!
+[2018.08.21-05.30.01:812][916]LogTemp: Error:  22127511240n pressure plate!
+[2018.08.21-05.30.01:829][917]LogTemp: Error:  22127511100n pressure plate!
+[2018.08.21-05.30.01:846][918]LogTemp: Error:  22127510740n pressure plate!
+[2018.08.21-05.30.01:863][919]LogTemp: Error:  22127510600n pressure plate!
+[2018.08.21-05.30.01:879][920]LogTemp: Error:  22127510440n pressure plate!
+[2018.08.21-05.30.01:896][921]LogTemp: Error:  22127510300n pressure plate!
+[2018.08.21-05.30.01:913][922]LogTemp: Error:  22127510140n pressure plate!
+[2018.08.21-05.30.01:929][923]LogTemp: Error:  22127510000n pressure plate!
+[2018.08.21-05.30.01:946][924]LogTemp: Error:  22127507640n pressure plate!
+[2018.08.21-05.30.01:963][925]LogTemp: Error:  22127507500n pressure plate!
+[2018.08.21-05.30.01:980][926]LogTemp: Error:  22127507340n pressure plate!
+[2018.08.21-05.30.01:996][927]LogTemp: Error:  22127507200n pressure plate!
+[2018.08.21-05.30.02:013][928]LogTemp: Error:  22127507040n pressure plate!
+[2018.08.21-05.30.02:030][929]LogTemp: Error:  22127506700n pressure plate!
+[2018.08.21-05.30.02:046][930]LogTemp: Error:  22127506540n pressure plate!
+[2018.08.21-05.30.02:063][931]LogTemp: Error:  22127506400n pressure plate!
+[2018.08.21-05.30.02:080][932]LogTemp: Error:  22127506240n pressure plate!
+[2018.08.21-05.30.02:096][933]LogTemp: Error:  22127506100n pressure plate!
+[2018.08.21-05.30.02:113][934]LogTemp: Error:  22127505740n pressure plate!
+[2018.08.21-05.30.02:129][935]LogTemp: Error:  22127505600n pressure plate!
+[2018.08.21-05.30.04:596][ 83]LogTemp: Warning: Grab released!
+[2018.08.21-05.30.07:113][234]LogTemp: Warning: Grab pressed!
+[2018.08.21-05.30.07:113][234]LogTemp: Warning: Line Trace Hit: SM_Chair_2
+[2018.08.21-05.30.10:562][441]LogTemp: Warning: Grab released!
+[2018.08.21-05.30.14:347][668]LogTemp: Warning: Grab pressed!
+[2018.08.21-05.30.14:348][668]LogTemp: Warning: Line Trace Hit: SM_Chair_2
+[2018.08.21-05.30.18:930][943]LogTemp: Warning: Grab released!
+[2018.08.21-05.30.22:080][127]LogTemp: Error:  22127517700n pressure plate!
+[2018.08.21-05.30.22:096][128]LogTemp: Error:  22127505060n pressure plate!
+[2018.08.21-05.30.22:113][129]LogTemp: Error:  22127506320n pressure plate!
+[2018.08.21-05.30.22:130][130]LogTemp: Error:  22127502520n pressure plate!
+[2018.08.21-05.30.22:146][131]LogTemp: Error:  22127502660n pressure plate!
+[2018.08.21-05.30.22:163][132]LogTemp: Error:  22127503020n pressure plate!
+[2018.08.21-05.30.22:180][133]LogTemp: Error:  22127502300n pressure plate!
+[2018.08.21-05.30.22:197][134]LogTemp: Error:  22127502140n pressure plate!
+[2018.08.21-05.30.22:213][135]LogTemp: Error:  22127502000n pressure plate!
+[2018.08.21-05.30.22:230][136]LogTemp: Error:  22127501640n pressure plate!
+[2018.08.21-05.30.22:247][137]LogTemp: Error:  22127501500n pressure plate!
+[2018.08.21-05.30.22:263][138]LogTemp: Error:  22127501340n pressure plate!
+[2018.08.21-05.30.22:280][139]LogTemp: Error:  22127501200n pressure plate!
+[2018.08.21-05.30.22:296][140]LogTemp: Error:  22127501040n pressure plate!
+[2018.08.21-05.30.22:313][141]LogTemp: Error:  22127500700n pressure plate!
+[2018.08.21-05.30.22:329][142]LogTemp: Error:  22127500540n pressure plate!
+[2018.08.21-05.30.22:346][143]LogTemp: Error:  22127500400n pressure plate!
+[2018.08.21-05.30.22:363][144]LogTemp: Error:  22127500240n pressure plate!
+[2018.08.21-05.30.22:379][145]LogTemp: Error:  34047277720n pressure plate!
+[2018.08.21-05.30.22:396][146]LogTemp: Error:  34047273020n pressure plate!
+[2018.08.21-05.30.22:413][147]LogTemp: Error:  34047272660n pressure plate!
+[2018.08.21-05.30.22:429][148]LogTemp: Error:  34047272520n pressure plate!
+[2018.08.21-05.30.22:446][149]LogTemp: Error:  34047272360n pressure plate!
+[2018.08.21-05.30.22:463][150]LogTemp: Error:  34047272220n pressure plate!
+[2018.08.21-05.30.22:479][151]LogTemp: Error:  34047272060n pressure plate!
+[2018.08.21-05.30.22:496][152]LogTemp: Error:  34047271720n pressure plate!
+[2018.08.21-05.30.22:513][153]LogTemp: Error:  34047271560n pressure plate!
+[2018.08.21-05.30.22:529][154]LogTemp: Error:  34047271340n pressure plate!
+[2018.08.21-05.30.24:113][249]LogTemp: Warning: Grab pressed!
+[2018.08.21-05.30.24:113][249]LogTemp: Warning: Line Trace Hit: SM_Chair_2
+[2018.08.21-05.30.24:863][294]LogTemp: Error:  34047270760n pressure plate!
+[2018.08.21-05.30.24:879][295]LogTemp: Error:  34047271040n pressure plate!
+[2018.08.21-05.30.24:896][296]LogTemp: Error:  34047267660n pressure plate!
+[2018.08.21-05.30.24:913][297]LogTemp: Error:  34047267520n pressure plate!
+[2018.08.21-05.30.24:929][298]LogTemp: Error:  34047267360n pressure plate!
+[2018.08.21-05.30.24:946][299]LogTemp: Error:  34047267220n pressure plate!
+[2018.08.21-05.30.24:963][300]LogTemp: Error:  34047267060n pressure plate!
+[2018.08.21-05.30.24:979][301]LogTemp: Error:  34047266720n pressure plate!
+[2018.08.21-05.30.24:996][302]LogTemp: Error:  34047266560n pressure plate!
+[2018.08.21-05.30.25:012][303]LogTemp: Error:  34047266420n pressure plate!
+[2018.08.21-05.30.25:030][304]LogTemp: Error:  34047266260n pressure plate!
+[2018.08.21-05.30.25:046][305]LogTemp: Error:  34047266120n pressure plate!
+[2018.08.21-05.30.25:062][306]LogTemp: Error:  34047265760n pressure plate!
+[2018.08.21-05.30.25:079][307]LogTemp: Error:  34047265620n pressure plate!
+[2018.08.21-05.30.25:096][308]LogTemp: Error:  34047265460n pressure plate!
+[2018.08.21-05.30.25:112][309]LogTemp: Error:  34047265320n pressure plate!
+[2018.08.21-05.30.25:129][310]LogTemp: Error:  34047265160n pressure plate!
+[2018.08.21-05.30.25:146][311]LogTemp: Error:  34047265020n pressure plate!
+[2018.08.21-05.30.25:163][312]LogTemp: Error:  34047264660n pressure plate!
+[2018.08.21-05.30.25:179][313]LogTemp: Error:  34047264520n pressure plate!
+[2018.08.21-05.30.25:196][314]LogTemp: Error:  34047264360n pressure plate!
+[2018.08.21-05.30.25:213][315]LogTemp: Error:  34047264220n pressure plate!
+[2018.08.21-05.30.25:230][316]LogTemp: Error:  34047264060n pressure plate!
+[2018.08.21-05.30.25:246][317]LogTemp: Error:  34047263720n pressure plate!
+[2018.08.21-05.30.25:263][318]LogTemp: Error:  34047263560n pressure plate!
+[2018.08.21-05.30.25:280][319]LogTemp: Error:  34047263420n pressure plate!
+[2018.08.21-05.30.25:296][320]LogTemp: Error:  34047263260n pressure plate!
+[2018.08.21-05.30.25:313][321]LogTemp: Error:  34047263120n pressure plate!
+[2018.08.21-05.30.25:330][322]LogTemp: Error:  34047262760n pressure plate!
+[2018.08.21-05.30.25:346][323]LogTemp: Error:  34047262620n pressure plate!
+[2018.08.21-05.30.25:363][324]LogTemp: Error:  34047262460n pressure plate!
+[2018.08.21-05.30.25:380][325]LogTemp: Error:  34047262320n pressure plate!
+[2018.08.21-05.30.25:396][326]LogTemp: Error:  34047262160n pressure plate!
+[2018.08.21-05.30.25:413][327]LogTemp: Error:  34047262020n pressure plate!
+[2018.08.21-05.30.25:430][328]LogTemp: Error:  34047261660n pressure plate!
+[2018.08.21-05.30.25:446][329]LogTemp: Error:  34047261520n pressure plate!
+[2018.08.21-05.30.25:463][330]LogTemp: Error:  34047261360n pressure plate!
+[2018.08.21-05.30.25:479][331]LogTemp: Error:  34047261220n pressure plate!
+[2018.08.21-05.30.25:496][332]LogTemp: Error:  34047261060n pressure plate!
+[2018.08.21-05.30.25:512][333]LogTemp: Error:  34047260720n pressure plate!
+[2018.08.21-05.30.25:529][334]LogTemp: Error:  34047260560n pressure plate!
+[2018.08.21-05.30.25:546][335]LogTemp: Error:  34047260420n pressure plate!
+[2018.08.21-05.30.25:562][336]LogTemp: Error:  34047260260n pressure plate!
+[2018.08.21-05.30.25:579][337]LogTemp: Error:  34047260120n pressure plate!
+[2018.08.21-05.30.25:596][338]LogTemp: Error:  34047257760n pressure plate!
+[2018.08.21-05.30.25:613][339]LogTemp: Error:  34047257620n pressure plate!
+[2018.08.21-05.30.25:630][340]LogTemp: Error:  34047257460n pressure plate!
+[2018.08.21-05.30.25:646][341]LogTemp: Error:  34047257320n pressure plate!
+[2018.08.21-05.30.25:663][342]LogTemp: Error:  34047257160n pressure plate!
+[2018.08.21-05.30.25:679][343]LogTemp: Error:  34047257020n pressure plate!
+[2018.08.21-05.30.25:696][344]LogTemp: Error:  34047256660n pressure plate!
+[2018.08.21-05.30.25:713][345]LogTemp: Error:  34047256520n pressure plate!
+[2018.08.21-05.30.25:729][346]LogTemp: Error:  34047256360n pressure plate!
+[2018.08.21-05.30.25:746][347]LogTemp: Error:  34047256220n pressure plate!
+[2018.08.21-05.30.25:763][348]LogTemp: Error:  34047256060n pressure plate!
+[2018.08.21-05.30.25:779][349]LogTemp: Error:  34047255720n pressure plate!
+[2018.08.21-05.30.25:796][350]LogTemp: Error:  34047255340n pressure plate!
+[2018.08.21-05.30.25:813][351]LogTemp: Error:  34047255720n pressure plate!
+[2018.08.21-05.30.25:829][352]LogTemp: Error:  34047271420n pressure plate!
+[2018.08.21-05.30.25:846][353]LogTemp: Error:  34047270240n pressure plate!
+[2018.08.21-05.30.25:863][354]LogTemp: Error:  34047254700n pressure plate!
+[2018.08.21-05.30.25:879][355]LogTemp: Error:  34047255040n pressure plate!
+[2018.08.21-05.30.25:896][356]LogTemp: Error:  34047255420n pressure plate!
+[2018.08.21-05.30.25:913][357]LogTemp: Error:  34047254320n pressure plate!
+[2018.08.21-05.30.25:930][358]LogTemp: Error:  34047254160n pressure plate!
+[2018.08.21-05.30.25:946][359]LogTemp: Error:  34047254020n pressure plate!
+[2018.08.21-05.30.25:963][360]LogTemp: Error:  34047253660n pressure plate!
+[2018.08.21-05.30.25:980][361]LogTemp: Error:  34047253520n pressure plate!
+[2018.08.21-05.30.25:996][362]LogTemp: Error:  34047253360n pressure plate!
+[2018.08.21-05.30.26:013][363]LogTemp: Error:  34047253220n pressure plate!
+[2018.08.21-05.30.26:029][364]LogTemp: Error:  34047253060n pressure plate!
+[2018.08.21-05.30.26:046][365]LogTemp: Error:  34047252720n pressure plate!
+[2018.08.21-05.30.26:063][366]LogTemp: Warning: Grab released!
+[2018.08.21-05.30.26:064][366]LogTemp: Error:  34047255640n pressure plate!
+[2018.08.21-05.30.26:080][367]LogTemp: Error:  34047252340n pressure plate!
+[2018.08.21-05.30.26:097][368]LogTemp: Error:  34047252120n pressure plate!
+[2018.08.21-05.30.26:113][369]LogTemp: Error:  34047251760n pressure plate!
+[2018.08.21-05.30.26:129][370]LogTemp: Error:  34047251620n pressure plate!
+[2018.08.21-05.30.26:147][371]LogTemp: Error:  34047251460n pressure plate!
+[2018.08.21-05.30.26:163][372]LogTemp: Error:  34047251320n pressure plate!
+[2018.08.21-05.30.26:179][373]LogTemp: Error:  34047251160n pressure plate!
+[2018.08.21-05.30.26:196][374]LogTemp: Error:  34047251020n pressure plate!
+[2018.08.21-05.30.26:213][375]LogTemp: Error:  34047250660n pressure plate!
+[2018.08.21-05.30.26:229][376]LogTemp: Error:  34047250520n pressure plate!
+[2018.08.21-05.30.26:246][377]LogTemp: Error:  34047250360n pressure plate!
+[2018.08.21-05.30.26:263][378]LogTemp: Error:  34047250220n pressure plate!
+[2018.08.21-05.30.26:280][379]LogTemp: Error:  34047250060n pressure plate!
+[2018.08.21-05.30.26:297][380]LogTemp: Error:  34047247720n pressure plate!
+[2018.08.21-05.30.26:313][381]LogTemp: Error:  34047247560n pressure plate!
+[2018.08.21-05.30.26:330][382]LogTemp: Error:  34047247420n pressure plate!
+[2018.08.21-05.30.26:347][383]LogTemp: Error:  34047247260n pressure plate!
+[2018.08.21-05.30.26:363][384]LogTemp: Error:  34047247120n pressure plate!
+[2018.08.21-05.30.26:379][385]LogTemp: Error:  34047246760n pressure plate!
+[2018.08.21-05.30.26:396][386]LogTemp: Error:  34047246620n pressure plate!
+[2018.08.21-05.30.26:413][387]LogTemp: Error:  34047246460n pressure plate!
+[2018.08.21-05.30.26:430][388]LogTemp: Error:  34047246320n pressure plate!
+[2018.08.21-05.30.26:446][389]LogTemp: Error:  34047246160n pressure plate!
+[2018.08.21-05.30.26:463][390]LogTemp: Error:  34047246020n pressure plate!
+[2018.08.21-05.30.26:479][391]LogTemp: Error:  34047245660n pressure plate!
+[2018.08.21-05.30.26:496][392]LogTemp: Error:  34047245520n pressure plate!
+[2018.08.21-05.30.26:513][393]LogTemp: Error:  34047245360n pressure plate!
+[2018.08.21-05.30.26:529][394]LogTemp: Error:  34047245220n pressure plate!
+[2018.08.21-05.30.26:546][395]LogTemp: Error:  34047245060n pressure plate!
+[2018.08.21-05.30.26:563][396]LogTemp: Error:  34047244720n pressure plate!
+[2018.08.21-05.30.26:579][397]LogTemp: Error:  34047244560n pressure plate!
+[2018.08.21-05.30.26:596][398]LogTemp: Error:  34047244420n pressure plate!
+[2018.08.21-05.30.26:613][399]LogTemp: Error:  34047244260n pressure plate!
+[2018.08.21-05.30.26:629][400]LogTemp: Error:  34047244120n pressure plate!
+[2018.08.21-05.30.26:646][401]LogTemp: Error:  34047243760n pressure plate!
+[2018.08.21-05.30.26:663][402]LogTemp: Error:  34047243620n pressure plate!
+[2018.08.21-05.30.26:680][403]LogTemp: Error:  34047243460n pressure plate!
+[2018.08.21-05.30.26:697][404]LogTemp: Error:  34047243320n pressure plate!
+[2018.08.21-05.30.26:713][405]LogTemp: Error:  34047243160n pressure plate!
+[2018.08.21-05.30.26:730][406]LogTemp: Error:  34047243020n pressure plate!
+[2018.08.21-05.30.26:746][407]LogTemp: Error:  34047242660n pressure plate!
+[2018.08.21-05.30.26:763][408]LogTemp: Error:  34047242520n pressure plate!
+[2018.08.21-05.30.26:779][409]LogTemp: Error:  34047242360n pressure plate!
+[2018.08.21-05.30.26:796][410]LogTemp: Error:  34047242220n pressure plate!
+[2018.08.21-05.30.26:813][411]LogTemp: Error:  34047242060n pressure plate!
+[2018.08.21-05.30.26:829][412]LogTemp: Error:  34047241720n pressure plate!
+[2018.08.21-05.30.26:846][413]LogTemp: Error:  34047241560n pressure plate!
+[2018.08.21-05.30.26:863][414]LogTemp: Error:  34047241420n pressure plate!
+[2018.08.21-05.30.26:880][415]LogTemp: Error:  34047241260n pressure plate!
+[2018.08.21-05.30.26:896][416]LogTemp: Error:  34047241120n pressure plate!
+[2018.08.21-05.30.26:913][417]LogTemp: Error:  34047240760n pressure plate!
+[2018.08.21-05.30.26:930][418]LogTemp: Error:  34047240620n pressure plate!
+[2018.08.21-05.30.26:946][419]LogTemp: Error:  34047240460n pressure plate!
+[2018.08.21-05.30.26:963][420]LogTemp: Error:  34047240320n pressure plate!
+[2018.08.21-05.30.26:979][421]LogTemp: Error:  32431537720n pressure plate!
+[2018.08.21-05.30.26:997][422]LogTemp: Error:  32431533100n pressure plate!
+[2018.08.21-05.30.27:013][423]LogTemp: Error:  32431532660n pressure plate!
+[2018.08.21-05.30.27:030][424]LogTemp: Error:  32431532520n pressure plate!
+[2018.08.21-05.30.27:046][425]LogTemp: Error:  32431532360n pressure plate!
+[2018.08.21-05.30.27:063][426]LogTemp: Error:  32431532220n pressure plate!
+[2018.08.21-05.30.27:080][427]LogTemp: Error:  32431532060n pressure plate!
+[2018.08.21-05.30.27:098][428]LogTemp: Error:  32431531720n pressure plate!
+[2018.08.21-05.30.27:113][429]LogTemp: Error:  32431531560n pressure plate!
+[2018.08.21-05.30.27:130][430]LogTemp: Error:  32431531420n pressure plate!
+[2018.08.21-05.30.27:146][431]LogTemp: Error:  32431531260n pressure plate!
+[2018.08.21-05.30.27:163][432]LogTemp: Error:  32431531120n pressure plate!
+[2018.08.21-05.30.27:180][433]LogTemp: Error:  32431531040n pressure plate!
+[2018.08.21-05.30.27:196][434]LogTemp: Error:  32431530620n pressure plate!
+[2018.08.21-05.30.27:213][435]LogTemp: Error:  32431530460n pressure plate!
+[2018.08.21-05.30.27:229][436]LogTemp: Error:  32431530320n pressure plate!
+[2018.08.21-05.30.27:246][437]LogTemp: Error:  32431530160n pressure plate!
+[2018.08.21-05.30.27:263][438]LogTemp: Error:  32431530020n pressure plate!
+[2018.08.21-05.30.27:279][439]LogTemp: Error:  32431527660n pressure plate!
+[2018.08.21-05.30.27:297][440]LogTemp: Error:  32431527520n pressure plate!
+[2018.08.21-05.30.27:313][441]LogTemp: Error:  32431527360n pressure plate!
+[2018.08.21-05.30.27:329][442]LogTemp: Error:  32431527220n pressure plate!
+[2018.08.21-05.30.27:346][443]LogTemp: Error:  32431527060n pressure plate!
+[2018.08.21-05.30.27:362][444]LogTemp: Error:  32431526720n pressure plate!
+[2018.08.21-05.30.27:379][445]LogTemp: Error:  32431526560n pressure plate!
+[2018.08.21-05.30.27:396][446]LogTemp: Error:  32431526420n pressure plate!
+[2018.08.21-05.30.27:413][447]LogTemp: Error:  32431526260n pressure plate!
+[2018.08.21-05.30.27:429][448]LogTemp: Error:  32431526120n pressure plate!
+[2018.08.21-05.30.27:446][449]LogTemp: Error:  32431525760n pressure plate!
+[2018.08.21-05.30.27:463][450]LogTemp: Error:  32431525620n pressure plate!
+[2018.08.21-05.30.27:479][451]LogTemp: Error:  32431525460n pressure plate!
+[2018.08.21-05.30.27:496][452]LogTemp: Error:  32431525320n pressure plate!
+[2018.08.21-05.30.27:513][453]LogTemp: Error:  32431525160n pressure plate!
+[2018.08.21-05.30.27:530][454]LogTemp: Error:  32431525020n pressure plate!
+[2018.08.21-05.30.27:547][455]LogTemp: Error:  32431524660n pressure plate!
+[2018.08.21-05.30.27:564][456]LogTemp: Error:  32431524520n pressure plate!
+[2018.08.21-05.30.27:580][457]LogTemp: Error:  32431524360n pressure plate!
+[2018.08.21-05.30.27:596][458]LogTemp: Error:  32431524220n pressure plate!
+[2018.08.21-05.30.27:613][459]LogTemp: Error:  32431524060n pressure plate!
+[2018.08.21-05.30.27:629][460]LogTemp: Error:  32431523720n pressure plate!
+[2018.08.21-05.30.27:646][461]LogTemp: Error:  32431523560n pressure plate!
+[2018.08.21-05.30.27:663][462]LogTemp: Error:  32431523420n pressure plate!
+[2018.08.21-05.30.27:679][463]LogTemp: Error:  32431523260n pressure plate!
+[2018.08.21-05.30.27:696][464]LogTemp: Error:  32431523120n pressure plate!
+[2018.08.21-05.30.27:713][465]LogTemp: Error:  32431522760n pressure plate!
+[2018.08.21-05.30.27:729][466]LogTemp: Error:  32431522620n pressure plate!
+[2018.08.21-05.30.27:746][467]LogTemp: Error:  32431522460n pressure plate!
+[2018.08.21-05.30.27:763][468]LogTemp: Error:  32431522320n pressure plate!
+[2018.08.21-05.30.27:779][469]LogTemp: Error:  32431522160n pressure plate!
+[2018.08.21-05.30.27:796][470]LogTemp: Error:  32431522020n pressure plate!
+[2018.08.21-05.30.27:812][471]LogTemp: Error:  32431521660n pressure plate!
+[2018.08.21-05.30.27:829][472]LogTemp: Error:  32431521520n pressure plate!
+[2018.08.21-05.30.27:846][473]LogTemp: Error:  32431521360n pressure plate!
+[2018.08.21-05.30.27:862][474]LogTemp: Error:  32431521220n pressure plate!
+[2018.08.21-05.30.27:879][475]LogTemp: Error:  32431521060n pressure plate!
+[2018.08.21-05.30.27:897][476]LogTemp: Error:  32431520720n pressure plate!
+[2018.08.21-05.30.27:913][477]LogTemp: Error:  32431520560n pressure plate!
+[2018.08.21-05.30.27:930][478]LogTemp: Error:  32431520420n pressure plate!
+[2018.08.21-05.30.27:947][479]LogTemp: Error:  32431520260n pressure plate!
+[2018.08.21-05.30.27:963][480]LogTemp: Error:  32431520120n pressure plate!
+[2018.08.21-05.30.27:980][481]LogTemp: Error:  32431517760n pressure plate!
+[2018.08.21-05.30.27:996][482]LogTemp: Error:  32431517620n pressure plate!
+[2018.08.21-05.30.28:013][483]LogTemp: Error:  32431517460n pressure plate!
+[2018.08.21-05.30.28:029][484]LogTemp: Error:  32431517320n pressure plate!
+[2018.08.21-05.30.28:046][485]LogTemp: Error:  32431517160n pressure plate!
+[2018.08.21-05.30.28:063][486]LogTemp: Error:  32431517020n pressure plate!
+[2018.08.21-05.30.28:080][487]LogTemp: Error:  32431516660n pressure plate!
+[2018.08.21-05.30.28:096][488]LogTemp: Error:  32431516520n pressure plate!
+[2018.08.21-05.30.28:113][489]LogTemp: Error:  32431516360n pressure plate!
+[2018.08.21-05.30.28:130][490]LogTemp: Error:  32431516220n pressure plate!
+[2018.08.21-05.30.28:147][491]LogTemp: Error:  32431516060n pressure plate!
+[2018.08.21-05.30.28:163][492]LogTemp: Error:  32431515720n pressure plate!
+[2018.08.21-05.30.28:180][493]LogTemp: Error:  32431515560n pressure plate!
+[2018.08.21-05.30.28:196][494]LogTemp: Error:  32431515420n pressure plate!
+[2018.08.21-05.30.28:213][495]LogTemp: Error:  32431515260n pressure plate!
+[2018.08.21-05.30.28:230][496]LogTemp: Error:  32431515120n pressure plate!
+[2018.08.21-05.30.28:246][497]LogTemp: Error:  32431514760n pressure plate!
+[2018.08.21-05.30.28:263][498]LogTemp: Error:  32431514620n pressure plate!
+[2018.08.21-05.30.28:280][499]LogTemp: Error:  32431514460n pressure plate!
+[2018.08.21-05.30.28:296][500]LogTemp: Error:  32431514100n pressure plate!
+[2018.08.21-05.30.28:313][501]LogTemp: Error:  32431531500n pressure plate!
+[2018.08.21-05.30.28:330][502]LogTemp: Error:  32431513600n pressure plate!
+[2018.08.21-05.30.28:346][503]LogTemp: Error:  32431514160n pressure plate!
+[2018.08.21-05.30.28:363][504]LogTemp: Error:  32431513060n pressure plate!
+[2018.08.21-05.30.28:379][505]LogTemp: Error:  32431512720n pressure plate!
+[2018.08.21-05.30.28:396][506]LogTemp: Error:  32431512560n pressure plate!
+[2018.08.21-05.30.28:413][507]LogTemp: Error:  32431512420n pressure plate!
+[2018.08.21-05.30.28:429][508]LogTemp: Error:  32431512260n pressure plate!
+[2018.08.21-05.30.28:446][509]LogTemp: Error:  32431512120n pressure plate!
+[2018.08.21-05.30.28:464][510]LogTemp: Error:  32431511760n pressure plate!
+[2018.08.21-05.30.28:480][511]LogTemp: Error:  32431511620n pressure plate!
+[2018.08.21-05.30.28:496][512]LogTemp: Error:  32431511460n pressure plate!
+[2018.08.21-05.30.28:513][513]LogTemp: Error:  32431511320n pressure plate!
+[2018.08.21-05.30.28:530][514]LogTemp: Error:  32431511160n pressure plate!
+[2018.08.21-05.30.28:546][515]LogTemp: Error:  32431511020n pressure plate!
+[2018.08.21-05.30.28:563][516]LogTemp: Error:  32431510660n pressure plate!
+[2018.08.21-05.30.28:580][517]LogTemp: Error:  32431510520n pressure plate!
+[2018.08.21-05.30.28:597][518]LogTemp: Error:  32431510360n pressure plate!
+[2018.08.21-05.30.28:613][519]LogTemp: Error:  32431510220n pressure plate!
+[2018.08.21-05.30.28:630][520]LogTemp: Error:  32431510060n pressure plate!
+[2018.08.21-05.30.28:647][521]LogTemp: Error:  32431507720n pressure plate!
+[2018.08.21-05.30.28:663][522]LogTemp: Error:  32431507560n pressure plate!
+[2018.08.21-05.30.28:680][523]LogTemp: Error:  32431507420n pressure plate!
+[2018.08.21-05.30.28:697][524]LogTemp: Error:  32431507200n pressure plate!
+[2018.08.21-05.30.28:713][525]LogTemp: Error:  32431507040n pressure plate!
+[2018.08.21-05.30.28:730][526]LogTemp: Error:  32431506700n pressure plate!
+[2018.08.21-05.30.28:747][527]LogTemp: Error:  32431506540n pressure plate!
+[2018.08.21-05.30.28:763][528]LogTemp: Error:  32431506400n pressure plate!
+[2018.08.21-05.30.28:780][529]LogTemp: Error:  32431506240n pressure plate!
+[2018.08.21-05.30.28:797][530]LogTemp: Error:  32431506100n pressure plate!
+[2018.08.21-05.30.28:813][531]LogTemp: Error:  32431505740n pressure plate!
+[2018.08.21-05.30.28:830][532]LogTemp: Error:  32431505600n pressure plate!
+[2018.08.21-05.30.28:846][533]LogTemp: Error:  32431505440n pressure plate!
+[2018.08.21-05.30.28:863][534]LogTemp: Error:  32431505300n pressure plate!
+[2018.08.21-05.30.28:880][535]LogTemp: Error:  32431505140n pressure plate!
+[2018.08.21-05.30.28:897][536]LogTemp: Error:  32431505000n pressure plate!
+[2018.08.21-05.30.28:913][537]LogTemp: Error:  32431504640n pressure plate!
+[2018.08.21-05.30.28:930][538]LogTemp: Error:  32431504500n pressure plate!
+[2018.08.21-05.30.28:946][539]LogTemp: Error:  32431504340n pressure plate!
+[2018.08.21-05.30.28:964][540]LogTemp: Warning: Grab pressed!
+[2018.08.21-05.30.28:964][540]LogTemp: Warning: Line Trace Hit: SM_Chair_2
+[2018.08.21-05.30.28:964][540]LogTemp: Error:  32431510140n pressure plate!
+[2018.08.21-05.30.28:980][541]LogTemp: Error:  32431503460n pressure plate!
+[2018.08.21-05.30.28:996][542]LogTemp: Error:  32431503320n pressure plate!
+[2018.08.21-05.30.29:013][543]LogTemp: Error:  32431503160n pressure plate!
+[2018.08.21-05.30.29:030][544]LogTemp: Error:  32431503020n pressure plate!
+[2018.08.21-05.30.29:046][545]LogTemp: Error:  32431502660n pressure plate!
+[2018.08.21-05.30.29:063][546]LogTemp: Error:  32431502520n pressure plate!
+[2018.08.21-05.30.29:080][547]LogTemp: Error:  32431502360n pressure plate!
+[2018.08.21-05.30.29:096][548]LogTemp: Error:  32431502220n pressure plate!
+[2018.08.21-05.30.29:113][549]LogTemp: Error:  32431502060n pressure plate!
+[2018.08.21-05.30.29:130][550]LogTemp: Error:  32431501720n pressure plate!
+[2018.08.21-05.30.29:146][551]LogTemp: Error:  32431501560n pressure plate!
+[2018.08.21-05.30.29:163][552]LogTemp: Error:  32431501420n pressure plate!
+[2018.08.21-05.30.29:180][553]LogTemp: Error:  32431501260n pressure plate!
+[2018.08.21-05.30.29:196][554]LogTemp: Error:  32431501120n pressure plate!
+[2018.08.21-05.30.29:213][555]LogTemp: Error:  32431500760n pressure plate!
+[2018.08.21-05.30.29:230][556]LogTemp: Error:  32431500620n pressure plate!
+[2018.08.21-05.30.29:247][557]LogTemp: Error:  32431500460n pressure plate!
+[2018.08.21-05.30.29:263][558]LogTemp: Error:  32431500320n pressure plate!
+[2018.08.21-05.30.29:279][559]LogTemp: Error:  32427477720n pressure plate!
+[2018.08.21-05.30.29:296][560]LogTemp: Error:  32427472740n pressure plate!
+[2018.08.21-05.30.29:313][561]LogTemp: Error:  32427472600n pressure plate!
+[2018.08.21-05.30.29:330][562]LogTemp: Error:  32427472440n pressure plate!
+[2018.08.21-05.30.29:346][563]LogTemp: Error:  32427472300n pressure plate!
+[2018.08.21-05.30.29:363][564]LogTemp: Error:  32427472140n pressure plate!
+[2018.08.21-05.30.29:380][565]LogTemp: Error:  32427472000n pressure plate!
+[2018.08.21-05.30.29:396][566]LogTemp: Error:  32427471640n pressure plate!
+[2018.08.21-05.30.29:413][567]LogTemp: Error:  32427471500n pressure plate!
+[2018.08.21-05.30.29:430][568]LogTemp: Error:  32427471340n pressure plate!
+[2018.08.21-05.30.29:446][569]LogTemp: Error:  32427471200n pressure plate!
+[2018.08.21-05.30.29:463][570]LogTemp: Error:  32427471040n pressure plate!
+[2018.08.21-05.30.29:479][571]LogTemp: Error:  32427470700n pressure plate!
+[2018.08.21-05.30.29:496][572]LogTemp: Error:  32427470540n pressure plate!
+[2018.08.21-05.30.29:513][573]LogTemp: Error:  32427470400n pressure plate!
+[2018.08.21-05.30.29:530][574]LogTemp: Error:  32427470240n pressure plate!
+[2018.08.21-05.30.29:547][575]LogTemp: Error:  32427470100n pressure plate!
+[2018.08.21-05.30.29:564][576]LogTemp: Error:  32427467740n pressure plate!
+[2018.08.21-05.30.29:580][577]LogTemp: Error:  32427467600n pressure plate!
+[2018.08.21-05.30.29:597][578]LogTemp: Error:  32427467440n pressure plate!
+[2018.08.21-05.30.29:613][579]LogTemp: Error:  32427467300n pressure plate!
+[2018.08.21-05.30.30:529][634]LogTemp: Error:  32427473400n pressure plate!
+[2018.08.21-05.30.30:546][635]LogTemp: Error:  32427467000n pressure plate!
+[2018.08.21-05.30.30:563][636]LogTemp: Error:  32427466640n pressure plate!
+[2018.08.21-05.30.30:580][637]LogTemp: Error:  32427466500n pressure plate!
+[2018.08.21-05.30.30:597][638]LogTemp: Error:  32427466340n pressure plate!
+[2018.08.21-05.30.30:613][639]LogTemp: Error:  32427466200n pressure plate!
+[2018.08.21-05.30.30:630][640]LogTemp: Error:  32427466040n pressure plate!
+[2018.08.21-05.30.30:647][641]LogTemp: Error:  32427465700n pressure plate!
+[2018.08.21-05.30.30:663][642]LogTemp: Error:  32427465540n pressure plate!
+[2018.08.21-05.30.30:680][643]LogTemp: Error:  32427465400n pressure plate!
+[2018.08.21-05.30.30:696][644]LogTemp: Error:  32427465240n pressure plate!
+[2018.08.21-05.30.30:713][645]LogTemp: Error:  32427465100n pressure plate!
+[2018.08.21-05.30.30:730][646]LogTemp: Error:  32427464740n pressure plate!
+[2018.08.21-05.30.30:747][647]LogTemp: Error:  32427464600n pressure plate!
+[2018.08.21-05.30.30:763][648]LogTemp: Error:  32427464440n pressure plate!
+[2018.08.21-05.30.30:780][649]LogTemp: Error:  32427464300n pressure plate!
+[2018.08.21-05.30.30:796][650]LogTemp: Error:  32427463720n pressure plate!
+[2018.08.21-05.30.30:813][651]LogTemp: Error:  32427467220n pressure plate!
+[2018.08.21-05.30.30:830][652]LogTemp: Error:  32427463420n pressure plate!
+[2018.08.21-05.30.30:846][653]LogTemp: Error:  32427464000n pressure plate!
+[2018.08.21-05.30.30:863][654]LogTemp: Error:  32427462700n pressure plate!
+[2018.08.21-05.30.30:879][655]LogTemp: Error:  32427462540n pressure plate!
+[2018.08.21-05.30.30:896][656]LogTemp: Error:  32427462400n pressure plate!
+[2018.08.21-05.30.30:913][657]LogTemp: Error:  32427462240n pressure plate!
+[2018.08.21-05.30.30:929][658]LogTemp: Error:  32427462100n pressure plate!
+[2018.08.21-05.30.30:946][659]LogTemp: Error:  32427461740n pressure plate!
+[2018.08.21-05.30.30:962][660]LogTemp: Error:  32427461600n pressure plate!
+[2018.08.21-05.30.30:980][661]LogTemp: Error:  32427461440n pressure plate!
+[2018.08.21-05.30.30:997][662]LogTemp: Error:  32427461300n pressure plate!
+[2018.08.21-05.30.31:013][663]LogTemp: Error:  32427461140n pressure plate!
+[2018.08.21-05.30.31:030][664]LogTemp: Error:  32427461000n pressure plate!
+[2018.08.21-05.30.31:047][665]LogTemp: Error:  32427460640n pressure plate!
+[2018.08.21-05.30.31:063][666]LogTemp: Warning: Grab released!
+[2018.08.21-05.30.31:064][666]LogTemp: Error:  32427470020n pressure plate!
+[2018.08.21-05.30.31:080][667]LogTemp: Error:  32427460260n pressure plate!
+[2018.08.21-05.30.31:097][668]LogTemp: Error:  32427460040n pressure plate!
+[2018.08.21-05.30.31:113][669]LogTemp: Error:  32427457700n pressure plate!
+[2018.08.21-05.30.31:130][670]LogTemp: Error:  32427457540n pressure plate!
+[2018.08.21-05.30.31:146][671]LogTemp: Error:  32427457400n pressure plate!
+[2018.08.21-05.30.31:163][672]LogTemp: Error:  32427457240n pressure plate!
+[2018.08.21-05.30.31:180][673]LogTemp: Error:  32427457100n pressure plate!
+[2018.08.21-05.30.31:196][674]LogTemp: Error:  32427456740n pressure plate!
+[2018.08.21-05.30.31:213][675]LogTemp: Error:  32427456600n pressure plate!
+[2018.08.21-05.30.31:229][676]LogTemp: Error:  32427456440n pressure plate!
+[2018.08.21-05.30.31:246][677]LogTemp: Error:  32427456300n pressure plate!
+[2018.08.21-05.30.31:263][678]LogTemp: Error:  32427456140n pressure plate!
+[2018.08.21-05.30.31:279][679]LogTemp: Error:  32427456000n pressure plate!
+[2018.08.21-05.30.31:296][680]LogTemp: Error:  32427455640n pressure plate!
+[2018.08.21-05.30.31:312][681]LogTemp: Error:  32427455500n pressure plate!
+[2018.08.21-05.30.31:329][682]LogTemp: Error:  32427455340n pressure plate!
+[2018.08.21-05.30.31:346][683]LogTemp: Error:  32427455200n pressure plate!
+[2018.08.21-05.30.31:363][684]LogTemp: Error:  32427455040n pressure plate!
+[2018.08.21-05.30.31:380][685]LogTemp: Error:  32427454700n pressure plate!
+[2018.08.21-05.30.31:397][686]LogTemp: Error:  32427454540n pressure plate!
+[2018.08.21-05.30.31:413][687]LogTemp: Error:  32427454400n pressure plate!
+[2018.08.21-05.30.31:430][688]LogTemp: Error:  32427454240n pressure plate!
+[2018.08.21-05.30.31:447][689]LogTemp: Error:  32427454100n pressure plate!
+[2018.08.21-05.30.31:464][690]LogTemp: Error:  32427453740n pressure plate!
+[2018.08.21-05.30.31:480][691]LogTemp: Error:  32427453600n pressure plate!
+[2018.08.21-05.30.31:496][692]LogTemp: Error:  32427453440n pressure plate!
+[2018.08.21-05.30.31:514][693]LogTemp: Error:  32427453300n pressure plate!
+[2018.08.21-05.30.31:530][694]LogTemp: Error:  32427453140n pressure plate!
+[2018.08.21-05.30.31:547][695]LogTemp: Error:  32427453000n pressure plate!
+[2018.08.21-05.30.31:564][696]LogTemp: Error:  32427452640n pressure plate!
+[2018.08.21-05.30.31:580][697]LogTemp: Error:  32427452500n pressure plate!
+[2018.08.21-05.30.31:597][698]LogTemp: Error:  32427452340n pressure plate!
+[2018.08.21-05.30.31:614][699]LogTemp: Error:  32427452200n pressure plate!
+[2018.08.21-05.30.31:630][700]LogTemp: Error:  32427452040n pressure plate!
+[2018.08.21-05.30.31:647][701]LogTemp: Error:  32427451700n pressure plate!
+[2018.08.21-05.30.31:663][702]LogTemp: Error:  32427451540n pressure plate!
+[2018.08.21-05.30.31:679][703]LogTemp: Error:  32427451400n pressure plate!
+[2018.08.21-05.30.31:696][704]LogTemp: Error:  32427451240n pressure plate!
+[2018.08.21-05.30.31:713][705]LogTemp: Error:  32427451100n pressure plate!
+[2018.08.21-05.30.31:730][706]LogTemp: Error:  32427450740n pressure plate!
+[2018.08.21-05.30.31:746][707]LogTemp: Error:  32427450600n pressure plate!
+[2018.08.21-05.30.31:763][708]LogTemp: Error:  32427450440n pressure plate!
+[2018.08.21-05.30.31:779][709]LogTemp: Error:  32427450300n pressure plate!
+[2018.08.21-05.30.31:796][710]LogTemp: Error:  32427450140n pressure plate!
+[2018.08.21-05.30.31:813][711]LogTemp: Error:  32427450000n pressure plate!
+[2018.08.21-05.30.31:830][712]LogTemp: Error:  32427447640n pressure plate!
+[2018.08.21-05.30.31:847][713]LogTemp: Error:  32427447500n pressure plate!
+[2018.08.21-05.30.31:863][714]LogTemp: Error:  32427447340n pressure plate!
+[2018.08.21-05.30.31:880][715]LogTemp: Error:  32427447200n pressure plate!
+[2018.08.21-05.30.31:897][716]LogTemp: Error:  32427447040n pressure plate!
+[2018.08.21-05.30.31:913][717]LogTemp: Error:  32427446700n pressure plate!
+[2018.08.21-05.30.31:930][718]LogTemp: Error:  32427446540n pressure plate!
+[2018.08.21-05.30.34:880][895]LogTemp: Error:  32427446100n pressure plate!
+[2018.08.21-05.30.34:897][896]LogTemp: Error:  32427446760n pressure plate!
+[2018.08.21-05.30.34:913][897]LogTemp: Error:  32427463260n pressure plate!
+[2018.08.21-05.30.34:930][898]LogTemp: Error:  32427445440n pressure plate!
+[2018.08.21-05.30.34:946][899]LogTemp: Error:  32427445600n pressure plate!
+[2018.08.21-05.30.34:963][900]LogTemp: Error:  32427445740n pressure plate!
+[2018.08.21-05.30.34:980][901]LogTemp: Error:  32427445220n pressure plate!
+[2018.08.21-05.30.34:996][902]LogTemp: Error:  32427445060n pressure plate!
+[2018.08.21-05.30.35:013][903]LogTemp: Error:  32427444720n pressure plate!
+[2018.08.21-05.30.35:029][904]LogTemp: Error:  32427444560n pressure plate!
+[2018.08.21-05.30.35:046][905]LogTemp: Error:  32427444420n pressure plate!
+[2018.08.21-05.30.35:064][906]LogTemp: Error:  32427444260n pressure plate!
+[2018.08.21-05.30.35:080][907]LogTemp: Error:  32427444120n pressure plate!
+[2018.08.21-05.30.35:097][908]LogTemp: Error:  32427443760n pressure plate!
+[2018.08.21-05.30.35:113][909]LogTemp: Error:  32427443620n pressure plate!
+[2018.08.21-05.30.35:129][910]LogTemp: Error:  32427443460n pressure plate!
+[2018.08.21-05.30.35:146][911]LogTemp: Error:  32427443320n pressure plate!
+[2018.08.21-05.30.35:163][912]LogTemp: Error:  32427443160n pressure plate!
+[2018.08.21-05.30.35:180][913]LogTemp: Error:  32427443020n pressure plate!
+[2018.08.21-05.30.35:196][914]LogTemp: Error:  32427442660n pressure plate!
+[2018.08.21-05.30.35:213][915]LogTemp: Error:  32427442520n pressure plate!
+[2018.08.21-05.30.35:230][916]LogTemp: Error:  32427442360n pressure plate!
+[2018.08.21-05.30.35:246][917]LogTemp: Error:  32427442220n pressure plate!
+[2018.08.21-05.30.35:264][918]LogTemp: Error:  32427442060n pressure plate!
+[2018.08.21-05.30.35:280][919]LogTemp: Error:  32427441720n pressure plate!
+[2018.08.21-05.30.35:297][920]LogTemp: Error:  32427441560n pressure plate!
+[2018.08.21-05.30.35:313][921]LogTemp: Error:  32427441420n pressure plate!
+[2018.08.21-05.30.35:330][922]LogTemp: Error:  32427441260n pressure plate!
+[2018.08.21-05.30.35:347][923]LogTemp: Error:  32427441120n pressure plate!
+[2018.08.21-05.30.35:364][924]LogTemp: Error:  32427440760n pressure plate!
+[2018.08.21-05.30.35:381][925]LogTemp: Error:  32427440620n pressure plate!
+[2018.08.21-05.30.35:397][926]LogTemp: Error:  32427440460n pressure plate!
+[2018.08.21-05.30.35:414][927]LogTemp: Error:  32427440320n pressure plate!
+[2018.08.21-05.30.35:430][928]LogTemp: Error:  23505137720n pressure plate!
+[2018.08.21-05.30.35:447][929]LogTemp: Error:  23505133100n pressure plate!
+[2018.08.21-05.30.35:463][930]LogTemp: Error:  23505132740n pressure plate!
+[2018.08.21-05.30.35:480][931]LogTemp: Error:  23505132600n pressure plate!
+[2018.08.21-05.30.35:496][932]LogTemp: Error:  23505132440n pressure plate!
+[2018.08.21-05.30.35:513][933]LogTemp: Error:  23505132300n pressure plate!
+[2018.08.21-05.30.35:530][934]LogTemp: Error:  23505132140n pressure plate!
+[2018.08.21-05.30.35:547][935]LogTemp: Error:  23505132000n pressure plate!
+[2018.08.21-05.30.35:563][936]LogTemp: Error:  23505131640n pressure plate!
+[2018.08.21-05.30.35:580][937]LogTemp: Error:  23505131500n pressure plate!
+[2018.08.21-05.30.35:597][938]LogTemp: Error:  23505131260n pressure plate!
+[2018.08.21-05.30.35:613][939]LogTemp: Error:  23505131120n pressure plate!
+[2018.08.21-05.30.35:629][940]LogTemp: Error:  23505130760n pressure plate!
+[2018.08.21-05.30.35:646][941]LogTemp: Error:  23505130620n pressure plate!
+[2018.08.21-05.30.35:663][942]LogTemp: Error:  23505130460n pressure plate!
+[2018.08.21-05.30.35:680][943]LogTemp: Error:  23505130320n pressure plate!
+[2018.08.21-05.30.35:696][944]LogTemp: Error:  23505130160n pressure plate!
+[2018.08.21-05.30.35:713][945]LogTemp: Error:  23505130020n pressure plate!
+[2018.08.21-05.30.35:730][946]LogTemp: Error:  23505127660n pressure plate!
+[2018.08.21-05.30.35:746][947]LogTemp: Error:  23505127520n pressure plate!
+[2018.08.21-05.30.35:763][948]LogTemp: Error:  23505127360n pressure plate!
+[2018.08.21-05.30.35:780][949]LogTemp: Error:  23505127220n pressure plate!
+[2018.08.21-05.30.35:797][950]LogTemp: Error:  23505126640n pressure plate!
+[2018.08.21-05.30.35:813][951]LogTemp: Error:  23505132220n pressure plate!
+[2018.08.21-05.30.35:830][952]LogTemp: Error:  23505126340n pressure plate!
+[2018.08.21-05.30.35:846][953]LogTemp: Error:  23505126720n pressure plate!
+[2018.08.21-05.30.35:863][954]LogTemp: Error:  23505125620n pressure plate!
+[2018.08.21-05.30.35:881][955]LogTemp: Error:  23505125460n pressure plate!
+[2018.08.21-05.30.35:897][956]LogTemp: Error:  23505125320n pressure plate!
+[2018.08.21-05.30.35:914][957]LogTemp: Error:  23505125160n pressure plate!
+[2018.08.21-05.30.35:930][958]LogTemp: Error:  23505125020n pressure plate!
+[2018.08.21-05.30.35:947][959]LogTemp: Error:  23505124660n pressure plate!
+[2018.08.21-05.30.35:963][960]LogTemp: Error:  23505124520n pressure plate!
+[2018.08.21-05.30.35:980][961]LogTemp: Error:  23505124360n pressure plate!
+[2018.08.21-05.30.35:997][962]LogTemp: Error:  23505124220n pressure plate!
+[2018.08.21-05.30.36:014][963]LogTemp: Error:  23505124060n pressure plate!
+[2018.08.21-05.30.36:030][964]LogTemp: Error:  23505123720n pressure plate!
+[2018.08.21-05.30.36:047][965]LogTemp: Error:  23505123560n pressure plate!
+[2018.08.21-05.30.36:064][966]LogTemp: Error:  23505123420n pressure plate!
+[2018.08.21-05.30.36:080][967]LogTemp: Error:  23505123260n pressure plate!
+[2018.08.21-05.30.36:097][968]LogTemp: Error:  23505123120n pressure plate!
+[2018.08.21-05.30.36:113][969]LogTemp: Error:  23505122760n pressure plate!
+[2018.08.21-05.30.36:130][970]LogTemp: Error:  23505122620n pressure plate!
+[2018.08.21-05.30.36:147][971]LogTemp: Error:  23505122460n pressure plate!
+[2018.08.21-05.30.36:164][972]LogTemp: Error:  23505122320n pressure plate!
+[2018.08.21-05.30.36:180][973]LogTemp: Error:  23505122160n pressure plate!
+[2018.08.21-05.30.36:197][974]LogTemp: Error:  23505122020n pressure plate!
+[2018.08.21-05.30.36:214][975]LogTemp: Error:  23505121660n pressure plate!
+[2018.08.21-05.30.36:230][976]LogTemp: Error:  23505121520n pressure plate!
+[2018.08.21-05.30.36:247][977]LogTemp: Error:  23505121360n pressure plate!
+[2018.08.21-05.30.36:263][978]LogTemp: Error:  23505121220n pressure plate!
+[2018.08.21-05.30.36:280][979]LogTemp: Error:  23505121060n pressure plate!
+[2018.08.21-05.30.36:297][980]LogTemp: Error:  23505120720n pressure plate!
+[2018.08.21-05.30.36:313][981]LogTemp: Error:  23505120560n pressure plate!
+[2018.08.21-05.30.36:330][982]LogTemp: Error:  23505120420n pressure plate!
+[2018.08.21-05.30.36:347][983]LogTemp: Error:  23505120260n pressure plate!
+[2018.08.21-05.30.36:363][984]LogTemp: Error:  23505120120n pressure plate!
+[2018.08.21-05.30.36:380][985]LogTemp: Error:  23505117760n pressure plate!
+[2018.08.21-05.30.36:397][986]LogTemp: Error:  23505117620n pressure plate!
+[2018.08.21-05.30.36:413][987]LogTemp: Error:  23505117460n pressure plate!
+[2018.08.21-05.30.36:430][988]LogTemp: Error:  23505117320n pressure plate!
+[2018.08.21-05.30.36:446][989]LogTemp: Error:  23505117160n pressure plate!
+[2018.08.21-05.30.36:464][990]LogTemp: Error:  23505117020n pressure plate!
+[2018.08.21-05.30.36:480][991]LogTemp: Error:  23505116660n pressure plate!
+[2018.08.21-05.30.36:497][992]LogTemp: Error:  23505116520n pressure plate!
+[2018.08.21-05.30.36:514][993]LogTemp: Error:  23505116360n pressure plate!
+[2018.08.21-05.30.36:530][994]LogTemp: Error:  23505116220n pressure plate!
+[2018.08.21-05.30.36:547][995]LogTemp: Error:  23505116060n pressure plate!
+[2018.08.21-05.30.36:564][996]LogTemp: Error:  23505115720n pressure plate!
+[2018.08.21-05.30.36:580][997]LogTemp: Error:  23505115560n pressure plate!
+[2018.08.21-05.30.36:596][998]LogTemp: Error:  23505115420n pressure plate!
+[2018.08.21-05.30.36:614][999]LogTemp: Error:  23505115260n pressure plate!
+[2018.08.21-05.30.36:631][  0]LogTemp: Error:  23505115120n pressure plate!
+[2018.08.21-05.30.36:648][  1]LogTemp: Error:  23505114760n pressure plate!
+[2018.08.21-05.30.36:664][  2]LogTemp: Error:  23505114620n pressure plate!
+[2018.08.21-05.30.36:681][  3]LogTemp: Error:  23505114460n pressure plate!
+[2018.08.21-05.30.36:697][  4]LogTemp: Error:  23505114320n pressure plate!
+[2018.08.21-05.30.36:714][  5]LogTemp: Error:  23505114160n pressure plate!
+[2018.08.21-05.30.36:730][  6]LogTemp: Error:  23505114020n pressure plate!
+[2018.08.21-05.30.36:748][  7]LogTemp: Error:  23505113660n pressure plate!
+[2018.08.21-05.30.36:764][  8]LogTemp: Error:  23505113520n pressure plate!
+[2018.08.21-05.30.36:780][  9]LogTemp: Error:  23505113360n pressure plate!
+[2018.08.21-05.30.36:796][ 10]LogTemp: Error:  23505113220n pressure plate!
+[2018.08.21-05.30.36:813][ 11]LogTemp: Error:  23505113060n pressure plate!
+[2018.08.21-05.30.36:830][ 12]LogTemp: Error:  23505112720n pressure plate!
+[2018.08.21-05.30.36:847][ 13]LogTemp: Error:  23505112560n pressure plate!
+[2018.08.21-05.30.36:863][ 14]LogTemp: Error:  23505112420n pressure plate!
+[2018.08.21-05.30.36:880][ 15]LogTemp: Error:  23505112260n pressure plate!
+[2018.08.21-05.30.36:896][ 16]LogTemp: Error:  23505112120n pressure plate!
+[2018.08.21-05.30.36:913][ 17]LogTemp: Error:  23505111760n pressure plate!
+[2018.08.21-05.30.36:930][ 18]LogTemp: Error:  23505111620n pressure plate!
+[2018.08.21-05.30.36:946][ 19]LogTemp: Error:  23505111460n pressure plate!
+[2018.08.21-05.30.36:963][ 20]LogTemp: Error:  23505111320n pressure plate!
+[2018.08.21-05.30.36:980][ 21]LogTemp: Error:  23505111160n pressure plate!
+[2018.08.21-05.30.36:996][ 22]LogTemp: Error:  23505111020n pressure plate!
+[2018.08.21-05.30.37:013][ 23]LogTemp: Error:  23505110660n pressure plate!
+[2018.08.21-05.30.37:030][ 24]LogTemp: Error:  23505110520n pressure plate!
+[2018.08.21-05.30.37:046][ 25]LogTemp: Error:  23505110360n pressure plate!
+[2018.08.21-05.30.37:063][ 26]LogTemp: Error:  23505110220n pressure plate!
+[2018.08.21-05.30.37:080][ 27]LogTemp: Error:  23505110060n pressure plate!
+[2018.08.21-05.30.37:097][ 28]LogTemp: Error:  23505107720n pressure plate!
+[2018.08.21-05.30.37:113][ 29]LogTemp: Error:  23505107560n pressure plate!
+[2018.08.21-05.30.37:130][ 30]LogTemp: Error:  23505107420n pressure plate!
+[2018.08.21-05.30.37:146][ 31]LogTemp: Error:  23505107260n pressure plate!
+[2018.08.21-05.30.37:163][ 32]LogTemp: Error:  23505107120n pressure plate!
+[2018.08.21-05.30.37:179][ 33]LogTemp: Error:  23505106760n pressure plate!
+[2018.08.21-05.30.37:196][ 34]LogTemp: Error:  23505106620n pressure plate!
+[2018.08.21-05.30.37:213][ 35]LogTemp: Error:  23505106460n pressure plate!
+[2018.08.21-05.30.37:230][ 36]LogTemp: Error:  23505106320n pressure plate!
+[2018.08.21-05.30.37:246][ 37]LogTemp: Error:  23505106160n pressure plate!
+[2018.08.21-05.30.37:263][ 38]LogTemp: Error:  23505106020n pressure plate!
+[2018.08.21-05.30.37:279][ 39]LogTemp: Error:  23505105660n pressure plate!
+[2018.08.21-05.30.37:296][ 40]LogTemp: Error:  23505105520n pressure plate!
+[2018.08.21-05.30.37:313][ 41]LogTemp: Error:  23505105360n pressure plate!
+[2018.08.21-05.30.37:329][ 42]LogTemp: Error:  23505105220n pressure plate!
+[2018.08.21-05.30.37:346][ 43]LogTemp: Error:  23505105060n pressure plate!
+[2018.08.21-05.30.37:363][ 44]LogTemp: Error:  23505104720n pressure plate!
+[2018.08.21-05.30.37:380][ 45]LogTemp: Error:  23505104560n pressure plate!
+[2018.08.21-05.30.37:397][ 46]LogTemp: Error:  23505104420n pressure plate!
+[2018.08.21-05.30.37:414][ 47]LogTemp: Error:  23505104260n pressure plate!
+[2018.08.21-05.30.37:430][ 48]LogTemp: Error:  23505104120n pressure plate!
+[2018.08.21-05.30.37:447][ 49]LogTemp: Error:  23505103760n pressure plate!
+[2018.08.21-05.30.37:464][ 50]LogTemp: Error:  23505103620n pressure plate!
+[2018.08.21-05.30.37:480][ 51]LogTemp: Error:  23505103460n pressure plate!
+[2018.08.21-05.30.37:497][ 52]LogTemp: Error:  23505103320n pressure plate!
+[2018.08.21-05.30.37:513][ 53]LogTemp: Error:  23505103160n pressure plate!
+[2018.08.21-05.30.37:530][ 54]LogTemp: Error:  23505103020n pressure plate!
+[2018.08.21-05.30.37:547][ 55]LogTemp: Error:  23505102660n pressure plate!
+[2018.08.21-05.30.37:564][ 56]LogTemp: Error:  23505102520n pressure plate!
+[2018.08.21-05.30.37:580][ 57]LogTemp: Error:  23505102360n pressure plate!
+[2018.08.21-05.30.37:596][ 58]LogTemp: Error:  23505102220n pressure plate!
+[2018.08.21-05.30.37:614][ 59]LogTemp: Error:  23505102060n pressure plate!
+[2018.08.21-05.30.37:630][ 60]LogTemp: Error:  23505101720n pressure plate!
+[2018.08.21-05.30.37:647][ 61]LogTemp: Error:  23505101560n pressure plate!
+[2018.08.21-05.30.37:664][ 62]LogTemp: Error:  23505101420n pressure plate!
+[2018.08.21-05.30.37:680][ 63]LogTemp: Error:  23505101260n pressure plate!
+[2018.08.21-05.30.37:697][ 64]LogTemp: Error:  23505101120n pressure plate!
+[2018.08.21-05.30.37:714][ 65]LogTemp: Error:  23505100760n pressure plate!
+[2018.08.21-05.30.37:730][ 66]LogTemp: Error:  23505100620n pressure plate!
+[2018.08.21-05.30.37:746][ 67]LogTemp: Error:  23505100460n pressure plate!
+[2018.08.21-05.30.37:763][ 68]LogTemp: Error:  23505100320n pressure plate!
+[2018.08.21-05.30.37:780][ 69]LogTemp: Error:  23577077720n pressure plate!
+[2018.08.21-05.30.37:797][ 70]LogTemp: Error:  23577073100n pressure plate!
+[2018.08.21-05.30.37:814][ 71]LogTemp: Error:  23577072740n pressure plate!
+[2018.08.21-05.30.37:830][ 72]LogTemp: Error:  23577072600n pressure plate!
+[2018.08.21-05.30.37:846][ 73]LogTemp: Error:  23577072440n pressure plate!
+[2018.08.21-05.30.37:863][ 74]LogTemp: Error:  23577072300n pressure plate!
+[2018.08.21-05.30.37:880][ 75]LogTemp: Error:  23577072140n pressure plate!
+[2018.08.21-05.30.37:897][ 76]LogTemp: Error:  23577072000n pressure plate!
+[2018.08.21-05.30.37:914][ 77]LogTemp: Error:  23577071640n pressure plate!
+[2018.08.21-05.30.37:930][ 78]LogTemp: Error:  23577071500n pressure plate!
+[2018.08.21-05.30.37:946][ 79]LogTemp: Error:  23577071340n pressure plate!
+[2018.08.21-05.30.39:130][150]LogTemp: Error:  23577071260n pressure plate!
+[2018.08.21-05.30.39:147][151]LogTemp: Error:  23577070240n pressure plate!
+[2018.08.21-05.30.39:163][152]LogTemp: Error:  23577070400n pressure plate!
+[2018.08.21-05.30.39:180][153]LogTemp: Error:  23577067660n pressure plate!
+[2018.08.21-05.30.39:197][154]LogTemp: Error:  23577067520n pressure plate!
+[2018.08.21-05.30.39:213][155]LogTemp: Error:  23577067360n pressure plate!
+[2018.08.21-05.30.39:230][156]LogTemp: Error:  23577067220n pressure plate!
+[2018.08.21-05.30.39:246][157]LogTemp: Error:  23577067060n pressure plate!
+[2018.08.21-05.30.39:263][158]LogTemp: Error:  23577066720n pressure plate!
+[2018.08.21-05.30.39:280][159]LogTemp: Error:  23577066640n pressure plate!
+[2018.08.21-05.30.39:296][160]LogTemp: Error:  23577066500n pressure plate!
+[2018.08.21-05.30.39:313][161]LogTemp: Error:  23577066340n pressure plate!
+[2018.08.21-05.30.39:330][162]LogTemp: Error:  23577066200n pressure plate!
+[2018.08.21-05.30.39:346][163]LogTemp: Error:  23577066040n pressure plate!
+[2018.08.21-05.30.39:363][164]LogTemp: Error:  23577065700n pressure plate!
+[2018.08.21-05.30.39:380][165]LogTemp: Error:  23577065540n pressure plate!
+[2018.08.21-05.30.39:396][166]LogTemp: Error:  23577065400n pressure plate!
+[2018.08.21-05.30.39:413][167]LogTemp: Error:  23577065240n pressure plate!
+[2018.08.21-05.30.39:430][168]LogTemp: Error:  23577065100n pressure plate!
+[2018.08.21-05.30.39:447][169]LogTemp: Error:  23577064740n pressure plate!
+[2018.08.21-05.30.39:463][170]LogTemp: Error:  23577064520n pressure plate!
+[2018.08.21-05.30.39:480][171]LogTemp: Error:  23577064360n pressure plate!
+[2018.08.21-05.30.39:496][172]LogTemp: Error:  23577064220n pressure plate!
+[2018.08.21-05.30.39:514][173]LogTemp: Error:  23577064060n pressure plate!
+[2018.08.21-05.30.39:530][174]LogTemp: Error:  23577063720n pressure plate!
+[2018.08.21-05.30.39:547][175]LogTemp: Error:  23577063560n pressure plate!
+[2018.08.21-05.30.39:564][176]LogTemp: Error:  23577063420n pressure plate!
+[2018.08.21-05.30.39:580][177]LogTemp: Error:  23577063260n pressure plate!
+[2018.08.21-05.30.39:597][178]LogTemp: Error:  23577063120n pressure plate!
+[2018.08.21-05.30.39:614][179]LogTemp: Error:  23577062760n pressure plate!
+[2018.08.21-05.30.39:631][180]LogTemp: Error:  23577062620n pressure plate!
+[2018.08.21-05.30.39:647][181]LogTemp: Error:  23577062460n pressure plate!
+[2018.08.21-05.30.39:664][182]LogTemp: Error:  23577062320n pressure plate!
+[2018.08.21-05.30.39:680][183]LogTemp: Error:  23577062160n pressure plate!
+[2018.08.21-05.30.39:697][184]LogTemp: Error:  23577062020n pressure plate!
+[2018.08.21-05.30.39:714][185]LogTemp: Error:  23577061660n pressure plate!
+[2018.08.21-05.30.39:730][186]LogTemp: Error:  23577061520n pressure plate!
+[2018.08.21-05.30.39:747][187]LogTemp: Error:  23577061360n pressure plate!
+[2018.08.21-05.30.39:763][188]LogTemp: Error:  23577061220n pressure plate!
+[2018.08.21-05.30.39:780][189]LogTemp: Error:  23577061060n pressure plate!
+[2018.08.21-05.30.39:797][190]LogTemp: Error:  23577060720n pressure plate!
+[2018.08.21-05.30.39:814][191]LogTemp: Error:  23577060560n pressure plate!
+[2018.08.21-05.30.39:831][192]LogTemp: Error:  23577060420n pressure plate!
+[2018.08.21-05.30.39:847][193]LogTemp: Error:  23577060260n pressure plate!
+[2018.08.21-05.30.39:864][194]LogTemp: Error:  23577060120n pressure plate!
+[2018.08.21-05.30.39:880][195]LogTemp: Error:  23577057760n pressure plate!
+[2018.08.21-05.30.39:897][196]LogTemp: Error:  23577057620n pressure plate!
+[2018.08.21-05.30.39:914][197]LogTemp: Error:  23577057460n pressure plate!
+[2018.08.21-05.30.39:930][198]LogTemp: Error:  23577057320n pressure plate!
+[2018.08.21-05.30.39:946][199]LogTemp: Error:  23577057160n pressure plate!
+[2018.08.21-05.30.39:963][200]LogTemp: Error:  23577057020n pressure plate!
+[2018.08.21-05.30.39:980][201]LogTemp: Error:  23577056660n pressure plate!
+[2018.08.21-05.30.39:996][202]LogTemp: Error:  23577056520n pressure plate!
+[2018.08.21-05.30.40:013][203]LogTemp: Error:  23577056360n pressure plate!
+[2018.08.21-05.30.40:030][204]LogTemp: Error:  23577056220n pressure plate!
+[2018.08.21-05.30.40:047][205]LogTemp: Error:  23577056060n pressure plate!
+[2018.08.21-05.30.40:063][206]LogTemp: Error:  23577055720n pressure plate!
+[2018.08.21-05.30.40:080][207]LogTemp: Error:  23577055560n pressure plate!
+[2018.08.21-05.30.40:097][208]LogTemp: Error:  23577055420n pressure plate!
+[2018.08.21-05.30.40:113][209]LogTemp: Error:  23577055260n pressure plate!
+[2018.08.21-05.30.40:131][210]LogTemp: Error:  23577055120n pressure plate!
+[2018.08.21-05.30.40:147][211]LogTemp: Error:  23577054760n pressure plate!
+[2018.08.21-05.30.40:163][212]LogTemp: Error:  23577054620n pressure plate!
+[2018.08.21-05.30.40:180][213]LogTemp: Error:  23577054460n pressure plate!
+[2018.08.21-05.30.40:196][214]LogTemp: Error:  23577054320n pressure plate!
+[2018.08.21-05.30.43:731][426]LogTemp: Warning: Grab pressed!

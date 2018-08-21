@@ -40,6 +40,9 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float DoorCloseDelay = 1.0f;
+	
+	AActor *Owner;
 
-	AActor* ActorThatOpens;
+	//Return total mass in kg
+	float GetTotMassOfActorsOnPlate();
 };
